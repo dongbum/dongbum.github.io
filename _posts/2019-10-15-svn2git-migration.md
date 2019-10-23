@@ -1,16 +1,12 @@
 ---
-id: 5466
 title: svn2git으로 svn 데이터를 git으로 마이그레이션
-date: 2019-10-15T14:38:39+09:00
-author: dongbum
-guid: https://blog.dongbumkim.com/?p=5466
-permalink: /archives/5466
 categories:
   - GIT
 tags:
   - GIT
   - svn
   - svn2git
+last_modified_at: 2019-10-15T14:38:39+09:00
 ---
 SVN 데이터를 GIT으로 가져가기 위한 방법. `svn2git` 이라는 프로젝트를 이용한다.
 
