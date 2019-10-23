@@ -1,11 +1,6 @@
 ---
-id: 5440
 title: C++/Python 환경에서 Coveralls + Travis-CI로 코드커버리지 테스트
 date: 2019-10-08T15:13:10+09:00
-author: dongbum
-layout: post
-guid: https://blog.dongbumkim.com/?p=5440
-permalink: /archives/5440
 categories:
   - C/C++/MFC
   - GIT
