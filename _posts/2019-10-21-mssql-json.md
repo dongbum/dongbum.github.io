@@ -1,13 +1,11 @@
 ---
-id: 5494
 title: MSSQL에서 JSON 사용하기
-date: 2019-10-21T16:48:38+09:00
+date: 2019-10-21 16:48:38+09:00
 author: dongbum
 layout: post
-guid: https://blog.dongbumkim.com/?p=5494
-permalink: /archives/5494
 categories:
-  - Database/SQL
+  - Database
+  - SQL
 tags:
   - JSON
   - MSSQL
