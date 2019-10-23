@@ -3,7 +3,7 @@ id: 1481
 title: MSSQL의 SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
 date: 2014-05-15T22:17:46+09:00
 author: dongbum
-layout: post
+
 guid: http://blog.83rpm.com/?p=1481
 permalink: /archives/1481
 categories:

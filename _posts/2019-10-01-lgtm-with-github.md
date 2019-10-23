@@ -1,11 +1,7 @@
 ---
-id: 5455
 title: Github와 연동 가능한 LGTM.com
 date: 2019-10-01T12:19:24+09:00
 author: dongbum
-layout: post
-guid: https://blog.dongbumkim.com/?p=5455
-permalink: /archives/5455
 categories:
   - C/C++/MFC
   - GIT

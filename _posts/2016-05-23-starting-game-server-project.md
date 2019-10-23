@@ -3,7 +3,7 @@ id: 4177
 title: 게임서버 제작 프로젝트의 시작
 date: 2016-05-23T17:44:27+09:00
 author: dongbum
-layout: post
+
 guid: http://blog.83rpm.com/?p=4177
 permalink: /archives/4177
 categories:

@@ -3,7 +3,7 @@ id: 5364
 title: 'boost에서 OpenSSL 사용하기 (1) : 윈도우에서 OpenSSL 빌드'
 date: 2019-05-09T14:36:26+09:00
 author: dongbum
-layout: post
+
 guid: https://blog.dongbumkim.com/?p=5364
 permalink: /archives/5364
 categories:

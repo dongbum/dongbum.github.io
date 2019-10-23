@@ -3,7 +3,7 @@ id: 1508
 title: Visual Assist X Snippet 기능을 이용해 Doxygen 주석 자동 입력하기
 date: 2014-11-19T11:00:17+09:00
 author: dongbum
-layout: post
+
 guid: http://blog.83rpm.com/?p=1508
 permalink: /archives/1508
 categories:

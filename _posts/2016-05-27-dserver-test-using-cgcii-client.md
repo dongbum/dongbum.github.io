@@ -3,7 +3,7 @@ id: 4179
 title: CGCII 테스트 클라이언트를 이용한 dserver 성능 측정
 date: 2016-05-27T21:08:06+09:00
 author: dongbum
-layout: post
+
 guid: http://blog.83rpm.com/?p=4179
 permalink: /archives/4179
 categories:

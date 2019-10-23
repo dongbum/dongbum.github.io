@@ -3,7 +3,7 @@ id: 4684
 title: Github 에서 내용에서 민감한 정보 삭제하기
 date: 2017-11-05T23:41:27+09:00
 author: dongbum
-layout: post
+
 guid: http://blog.83rpm.com/?p=4684
 permalink: /archives/4684
 categories:

@@ -3,7 +3,7 @@ id: 4197
 title: dependent-name is parsed as a non-type, but instantiation yields a type 에러 해결 방법
 date: 2016-06-02T10:35:18+09:00
 author: dongbum
-layout: post
+
 guid: http://blog.83rpm.com/?p=4197
 permalink: /archives/4197
 categories:

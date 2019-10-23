@@ -3,7 +3,7 @@ id: 5258
 title: C++에서 엑셀파일 처리하기
 date: 2018-11-30T15:14:26+09:00
 author: dongbum
-layout: post
+
 guid: https://blog.dongbumkim.com/?p=5258
 permalink: /archives/5258
 categories:

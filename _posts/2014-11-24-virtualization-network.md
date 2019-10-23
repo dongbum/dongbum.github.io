@@ -3,7 +3,7 @@ id: 3917
 title: '가상화를 위한 준비 #2 – 네트워크'
 date: 2014-11-24T02:02:21+09:00
 author: dongbum
-layout: post
+
 guid: http://blog.83rpm.com/?p=3917
 permalink: /archives/3917
 categories:

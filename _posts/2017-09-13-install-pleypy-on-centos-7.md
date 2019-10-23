@@ -3,7 +3,7 @@ id: 4587
 title: CentOS 7에 plexpy 설치
 date: 2017-09-13T00:33:46+09:00
 author: dongbum
-layout: post
+
 guid: http://blog.83rpm.com/?p=4587
 permalink: /archives/4587
 nwsv2_post_status:

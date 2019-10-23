@@ -3,7 +3,7 @@ id: 4552
 title: apache 2.4 + flask 설정방법
 date: 2019-09-04T18:55:15+09:00
 author: dongbum
-layout: post
+
 guid: http://blog.83rpm.com/?p=4552
 permalink: /archives/4552
 categories:

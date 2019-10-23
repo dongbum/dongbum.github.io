@@ -3,7 +3,7 @@ id: 4303
 title: 리눅스에서 스왑 메모리 관리하기
 date: 2016-12-10T12:58:45+09:00
 author: dongbum
-layout: post
+
 guid: http://blog.83rpm.com/?p=4303
 permalink: /archives/4303
 nwsv2_post_status:

@@ -3,7 +3,7 @@ id: 5158
 title: Lightsail 에서 NGINX에 SSL 적용하기 (2)
 date: 2018-04-02T15:35:35+09:00
 author: dongbum
-layout: post
+
 guid: http://blog.83rpm.com/?p=5158
 permalink: /archives/5158
 categories:

@@ -1,11 +1,6 @@
 ---
-id: 5461
 title: UnityBuild와 pragma once
 date: 2019-10-02T17:34:28+09:00
-author: dongbum
-layout: post
-guid: https://blog.dongbumkim.com/?p=5461
-permalink: /archives/5461
 categories:
   - C/C++/MFC
 tags:

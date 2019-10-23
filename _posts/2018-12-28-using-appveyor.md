@@ -3,7 +3,7 @@ id: 5308
 title: AppVeyor 사용기
 date: 2018-12-28T13:34:31+09:00
 author: dongbum
-layout: post
+
 guid: https://blog.dongbumkim.com/?p=5308
 permalink: /archives/5308
 categories:

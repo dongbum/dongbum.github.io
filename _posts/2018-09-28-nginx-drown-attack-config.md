@@ -3,7 +3,7 @@ id: 5239
 title: DROWN Attack 취약점 방지용 SSL 설정
 date: 2018-09-28T13:27:43+09:00
 author: dongbum
-layout: post
+
 guid: https://blog.dongbumkim.com/?p=5239
 permalink: /archives/5239
 categories:

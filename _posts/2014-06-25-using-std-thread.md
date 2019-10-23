@@ -3,7 +3,7 @@ id: 1522
 title: std::thread 사용법
 date: 2014-06-25T22:03:15+09:00
 author: dongbum
-layout: post
+
 guid: http://www.83rpm.com/?p=1522
 permalink: /archives/1522
 categories:

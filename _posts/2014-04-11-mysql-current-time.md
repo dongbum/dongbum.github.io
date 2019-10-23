@@ -3,7 +3,7 @@ id: 1450
 title: MySQL에서 현재 시간 자동 입력 방법
 date: 2014-04-11T16:45:23+09:00
 author: dongbum
-layout: post
+
 guid: http://blog.83rpm.com/?p=1450
 permalink: /archives/1450
 categories:

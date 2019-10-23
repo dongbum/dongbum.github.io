@@ -3,7 +3,7 @@ id: 4675
 title: Lightsail 로 서버 이전 후기
 date: 2017-11-02T14:36:24+09:00
 author: dongbum
-layout: post
+
 guid: http://blog.83rpm.com/?p=4675
 permalink: /archives/4675
 categories:

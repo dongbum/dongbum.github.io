@@ -3,7 +3,7 @@ id: 5426
 title: Flask + IIS 로 윈도우에서 서비스하기
 date: 2019-09-06T16:14:14+09:00
 author: dongbum
-layout: post
+
 guid: https://blog.dongbumkim.com/?p=5426
 permalink: /archives/5426
 categories:
