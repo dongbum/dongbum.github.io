@@ -1,11 +1,6 @@
 ---
-id: 4789
 title: Visual Studio 에서 C++ 로 사용하기 위한 protobuf 설치
 date: 2017-12-12T18:52:32+09:00
-
-
-guid: http://blog.83rpm.com/?p=4789
-permalink: /archives/4789
 categories:
   - C/C++/MFC
 tags:

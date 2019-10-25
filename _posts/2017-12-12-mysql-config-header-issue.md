@@ -1,11 +1,6 @@
 ---
-id: 4786
 title: MySQL 라이브러리 사용시 config.h 파일 문제
 date: 2017-12-12T12:02:26+09:00
-
-
-guid: http://blog.83rpm.com/?p=4786
-permalink: /archives/4786
 categories:
   - boost
   - C/C++/MFC

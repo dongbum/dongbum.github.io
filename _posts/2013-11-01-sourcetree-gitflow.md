@@ -1,10 +1,6 @@
 ---
-id: 1218
 title: SourceTree와 함께 Git과 git-flow 사용해보기
 date: 2013-11-01T01:00:57+09:00
-
-guid: http://blog.83rpm.com/?p=1218
-permalink: /archives/1218
 categories:
   - GIT
   - Linux

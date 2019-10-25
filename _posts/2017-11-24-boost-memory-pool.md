@@ -1,11 +1,6 @@
 ---
-id: 4738
 title: boost에서 메모리풀 사용
 date: 2017-11-24T09:56:32+09:00
-
-
-guid: http://blog.83rpm.com/?p=4738
-permalink: /archives/4738
 categories:
   - boost
   - C/C++/MFC

@@ -1,11 +1,6 @@
 ---
-id: 4195
 title: tbbmalloc을 적용했을 때 성능 변화
 date: 2016-05-30T10:27:03+09:00
-
-
-guid: http://blog.83rpm.com/?p=4195
-permalink: /archives/4195
 categories:
   - GameServer
 ---

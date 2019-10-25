@@ -1,10 +1,6 @@
 ---
-id: 1258
 title: git flow 에서 hotfix 사용 방법
 date: 2013-12-17T14:44:41+09:00
-
-guid: http://blog.83rpm.com/?p=1258
-permalink: /archives/1258
 categories:
   - GIT
 tags:

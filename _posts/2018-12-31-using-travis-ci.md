@@ -1,11 +1,6 @@
 ---
-id: 5291
 title: Travis CI 사용
 date: 2018-12-31T15:56:01+09:00
-
-
-guid: https://blog.dongbumkim.com/?p=5291
-permalink: /archives/5291
 categories:
   - C/C++/MFC
   - GameServer

@@ -1,11 +1,6 @@
 ---
-id: 4743
 title: boost::property_tree의 위험성
 date: 2017-11-24T14:27:54+09:00
-
-
-guid: http://blog.83rpm.com/?p=4743
-permalink: /archives/4743
 categories:
   - boost
   - C/C++/MFC

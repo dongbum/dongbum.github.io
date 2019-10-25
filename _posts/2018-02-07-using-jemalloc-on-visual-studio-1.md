@@ -1,11 +1,6 @@
 ---
-id: 5112
 title: Visual Studio에서 jemalloc 설치하고 사용법 (1)
 date: 2018-02-07T15:51:24+09:00
-
-
-guid: http://blog.83rpm.com/?p=5112
-permalink: /archives/5112
 categories:
   - 'C#'
 tags:

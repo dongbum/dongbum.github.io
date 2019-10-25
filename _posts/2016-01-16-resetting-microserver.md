@@ -1,10 +1,6 @@
 ---
-id: 4095
 title: MicroServer를 재설정
 date: 2016-01-16T16:05:19+09:00
-
-guid: http://blog.83rpm.com/?p=4095
-permalink: /archives/4095
 categories:
   - MicroServer
 tags:

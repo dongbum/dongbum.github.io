@@ -1,10 +1,6 @@
 ---
-id: 1443
 title: ASP.NET targetFramework 특성 오류 대처방법
 date: 2014-03-31T22:04:43+09:00
-
-guid: http://blog.83rpm.com/?p=1443
-permalink: /archives/1443
 categories:
   - ASP.NET
 ---

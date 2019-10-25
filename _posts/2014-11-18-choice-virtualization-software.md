@@ -1,11 +1,6 @@
 ---
-id: 3882
 title: 가상화 하이퍼바이저의 선택
 date: 2014-11-18T13:22:10+09:00
-
-
-guid: http://www.83rpm.com/?p=3882
-permalink: /archives/3882
 categories:
   - Virtualization
 tags:

@@ -1,11 +1,6 @@
 ---
-id: 5176
 title: Node.js MaxListener 에러 수정
 date: 2018-04-25T16:41:43+09:00
-
-
-guid: http://blog.83rpm.com/?p=5176
-permalink: /archives/5176
 categories:
   - node.js
 tags:

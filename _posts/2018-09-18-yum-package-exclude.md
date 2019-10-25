@@ -1,11 +1,6 @@
 ---
-id: 5229
 title: yum에서 특정패키지 제외하고 업데이트하는 방법
 date: 2018-09-18T11:23:32+09:00
-
-
-guid: http://blog.dongbumkim.com/?p=5229
-permalink: /archives/5229
 categories:
   - Linux
 tags:

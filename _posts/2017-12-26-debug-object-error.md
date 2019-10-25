@@ -1,11 +1,6 @@
 ---
-id: 4818
 title: 디버그 정보가 없는 것처럼 개체를 링크합니다. 에러 수정
 date: 2017-12-26T18:12:30+09:00
-
-
-guid: http://blog.83rpm.com/?p=4818
-permalink: /archives/4818
 categories:
   - C/C++/MFC
 ---

@@ -1,13 +1,6 @@
 ---
-id: 5268
 title: Lightsail 을 사용한 이후 그동안의 업데이트와 변화
 date: 2018-12-06T21:51:13+09:00
-
-
-guid: https://blog.dongbumkim.com/?p=5268
-permalink: /archives/5268
-classic-editor-remember:
-  - classic-editor
 categories:
   - AWS
   - Lightsail

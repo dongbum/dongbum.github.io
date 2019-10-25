@@ -1,11 +1,6 @@
 ---
-id: 4171
 title: Redis 사용시 SET 이 에러나거나 Protected Mode 가 활성화 될 때 해결방법
 date: 2016-05-17T15:16:46+09:00
-
-
-guid: http://blog.83rpm.com/?p=4171
-permalink: /archives/4171
 categories:
   - Database/SQL
   - Programming
@@ -23,23 +18,23 @@ Redis를 캐시서버로 쓰고자 했을 때 SET이 되지 않았다. GET은 �
 
 해결방법은 레디스 프로그램 파일에 첨부된 redis.conf 에 있었다. 이 파일에 보면 protected-mode 라는 환경설정 항목이 있고 이 항목의 값은 yes 로 되어 있다. 이 protected-mode 지시자가 무엇인지는 위에 주석에 자세히 써있다.
 
-> \# Protected mode is a layer of security protection, in order to avoid that
-> \# Redis instances left open on the internet are accessed and exploited.
+> # Protected mode is a layer of security protection, in order to avoid that
+> # Redis instances left open on the internet are accessed and exploited.
 > #
-> \# When protected mode is on and if:
+> # When protected mode is on and if:
 > #
-> \# 1) The server is not binding explicitly to a set of addresses using the
-> \# "bind" directive.
-> \# 2) No password is configured.
+> # 1) The server is not binding explicitly to a set of addresses using the
+> # "bind" directive.
+> # 2) No password is configured.
 > #
-> \# The server only accepts connections from clients connecting from the
-> \# IPv4 and IPv6 loopback addresses 127.0.0.1 and ::1, and from Unix domain
-> \# sockets.
+> # The server only accepts connections from clients connecting from the
+> # IPv4 and IPv6 loopback addresses 127.0.0.1 and ::1, and from Unix domain
+> # sockets.
 > #
-> \# By default protected mode is enabled. You should disable it only if
-> \# you are sure you want clients from other hosts to connect to Redis
-> \# even if no authentication is configured, nor a specific set of interfaces
-> \# are explicitly listed using the "bind" directive.
+> # By default protected mode is enabled. You should disable it only if
+> # you are sure you want clients from other hosts to connect to Redis
+> # even if no authentication is configured, nor a specific set of interfaces
+> # are explicitly listed using the "bind" directive.
 
 대략적인 내용은 보호모드라는 항목이 있으며 이것은 인터넷을 통한 접속과 부당한 이용을 막기 위함이라고 한다. 이 보호모드를 다음과 같은 경우에 켜라고 한다. 서버가 bind 지시어를 통해 바인딩되어 있지 않은 경우, 암호가 설정되지 않은 경우.
 

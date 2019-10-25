@@ -1,11 +1,6 @@
 ---
-id: 5127
 title: Windows에서 Jenkins 설치하기
 date: 2018-02-22T16:39:35+09:00
-
-
-guid: http://blog.83rpm.com/?p=5127
-permalink: /archives/5127
 categories:
   - C/C++/MFC
   - Java/JSP

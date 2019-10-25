@@ -1,14 +1,6 @@
 ---
-id: 4298
 title: redmine 설치 + passenger 모듈 설치시 에러
 date: 2016-10-24T13:24:03+09:00
-
-
-guid: http://blog.83rpm.com/?p=4298
-permalink: /archives/4298
-nwsv2_post_status:
-  - complete
-  - complete
 categories:
   - Linux
 tags:

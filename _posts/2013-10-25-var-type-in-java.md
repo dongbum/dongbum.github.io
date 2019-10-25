@@ -1,10 +1,6 @@
 ---
-id: 1213
 title: JAVA의 자료형
 date: 2013-10-25T23:41:54+09:00
-
-guid: http://blog.83rpm.com/?p=1213
-permalink: /archives/1213
 categories:
   - Java/JSP
 tags:

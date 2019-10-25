@@ -1,11 +1,6 @@
 ---
-id: 4766
 title: InitializeCriticalSectionAndSpinCount, CriticalSection에 대한 정보 이것저것
 date: 2017-12-04T11:16:27+09:00
-
-
-guid: http://blog.83rpm.com/?p=4766
-permalink: /archives/4766
 categories:
   - C/C++/MFC
 ---

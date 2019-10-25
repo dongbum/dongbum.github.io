@@ -1,10 +1,6 @@
 ---
-id: 4205
 title: 서버 성능 테스트 2차
 date: 2016-06-02T20:51:37+09:00
-
-guid: http://blog.83rpm.com/?p=4205
-permalink: /archives/4205
 categories:
   - GameServer
 ---
