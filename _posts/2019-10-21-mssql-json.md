@@ -87,7 +87,9 @@ JSON 데이터의 값을 수정한다.
 
 만약, 테이블내의 실제 데이터값을 바꾸려면 아래 코드처럼 사용한다.
 
-<pre><code class="language-SQL">SET @info = JSON_MODIFY(@jsonInfo, "$.info.address[0].town", 'London')</code></pre>
+```sql
+SET @info = JSON_MODIFY(@jsonInfo, "$.info.address[0].town", 'London')
+```
 
 리턴되는 값은 새로 업데이트된 값을 반환한다.
 
