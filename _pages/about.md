@@ -5,12 +5,12 @@ permalink: /about/
 author_profile: true
 ---
 
-# DONGBUM KIM
-
 ### Game Server Developer
 
 2007년부터 개발을 시작하였으며 게임서버 개발자로 일하고 있습니다.
 여러 프로젝트에서 게임서버와 인프라 소프트웨어를 개발하였으며 현재는 Linux, Python, AWS, Node.js 등의 기술에 관심을 가지고 있습니다.
+
+#### Career
 
 * [DragonFly](http://www.dragonflygame.com/) :: 2016. 04. ~ Today
 * [RocketMobile](http://www.rocketmobile.co.kr/) :: 2015. 04. ~ 2016. 04.
@@ -20,10 +20,12 @@ author_profile: true
 * [eFusion-i](http://www.efusioni.com/) :: 2008. 12. ~ 2010. 02.
 * [Cube&Cube](http://www.cubencube.com/) :: 2007. 02. ~ 2008. 12.
 
+#### Skill
+
 * Game Server - C++
 * Database - MSSQL / MySQL
 * Windows & Linux Platform
-* Web Based Server & Tools - JSP / ASP.net
+* Web Based Server & Tools - Python / JSP / ASP.net
 
 ---
 
@@ -32,9 +34,8 @@ author_profile: true
 ---
 
 #### PROJECT 'ID'
-In-game Play
-<iframe width="700" height="480" src="https://www.youtube.com/embed/dd7xfdWBsAw" frameborder="0" allowfullscreen></iframe>
-
+* In-game Play
+  <iframe width="700" height="480" src="https://www.youtube.com/embed/dd7xfdWBsAw" frameborder="0" allowfullscreen></iframe>
 * 모바일 FPS 게임 제작 프로젝트
 * 게임서버 개발 : 프로젝트 시작시부터 참여하여 프로토타입 개발 전반 담당
 * 게임서버 개발, DB테이블/프로시져 개발
@@ -46,12 +47,10 @@ In-game Play
 
 #### PROJECT '정복'
 
-Lobby
-<iframe width="700" height="480" src="https://www.youtube.com/embed/AvyiCg8nz48" frameborder="0" allowfullscreen></iframe>
-
-In-game Play
-<iframe width="700" height="480" src="https://www.youtube.com/embed/tUOncIDbnbQ" frameborder="0" allowfullscreen></iframe>
-
+* Lobby
+  <iframe width="700" height="480" src="https://www.youtube.com/embed/AvyiCg8nz48" frameborder="0" allowfullscreen></iframe>
+* In-game Play
+  <iframe width="700" height="480" src="https://www.youtube.com/embed/tUOncIDbnbQ" frameborder="0" allowfullscreen></iframe>
 * 게임서버 개발 : 프로젝트 시작시부터 참여하여 비즈니스 로직 개발 전반적으로 담당
 * 로그인처리, 캐릭터, 아이템, 강화/초월/합성/진화, 개척, 모험 진행, 상점 기본기능 구현, 게임서버 개발, DB테이블/프로시져 개발
 * C++, MSSQL
@@ -61,10 +60,8 @@ In-game Play
 * 기타 서버시스템 구현 : 레이드 플레이기록 저장서버, 로그 뷰어 시스템 등 구현
 * 테스트/QA 서버 관리 (VMWare ESXi로 가상화), SVN 서버, 백업 서버 등 개발서버 관리
 * Redmine 설치/설정 등의 개발인프라 지원
-
-LogViewer
-![](screenshot/01_LogViewer_Dashboard.png)
-
+* LogViewer
+  ![](/assets/images/portfolio/01_LogViewer_Dashboard.png)
 * 리눅스 환경(CentOS 6.7)에서 제작
 * JSP + JAVA로 구현
 * Apache + Tomcat 사용
@@ -74,12 +71,10 @@ LogViewer
 ---
 
 #### PROJECT '드래곤헌터 FOR KAKAO'
-Main Promotion
-<iframe width="700" height="480" src="https://www.youtube.com/embed/82HsgOqylOc" frameborder="0" allowfullscreen></iframe>
-
-CBT Promotion
-<iframe width="700" height="480" src="https://www.youtube.com/embed/mbzc_Lamt7I" frameborder="0" allowfullscreen></iframe>
-
+* Main Promotion
+  <iframe width="700" height="480" src="https://www.youtube.com/embed/82HsgOqylOc" frameborder="0" allowfullscreen></iframe>
+* CBT Promotion
+  <iframe width="700" height="480" src="https://www.youtube.com/embed/mbzc_Lamt7I" frameborder="0" allowfullscreen></iframe>
 * '드래곤헌터' 서버 개발 : 프로젝트 초기부터 작업하여 런칭, 서비스 운영까지 참여
 * C++/MSSQL로 작업 (Windows 플랫폼)
 * 스테이지, 강화/초월, 미션처리, PVP, 무한의숲 등 비즈니스 로직 개발
@@ -93,12 +88,10 @@ CBT Promotion
 ---
 
 #### PROJECT '나는 야구감독이다'
-Game Play
-<iframe width="700" height="480" src="https://www.youtube.com/embed/aU-qW3RwuU4" frameborder="0" allowfullscreen></iframe>
-
-TV Promotion
-<iframe width="700" height="480" src="https://www.youtube.com/embed/vxOcfok-YG4" frameborder="0" allowfullscreen></iframe>
-
+* Game Play
+  <iframe width="700" height="480" src="https://www.youtube.com/embed/aU-qW3RwuU4" frameborder="0" allowfullscreen></iframe>
+* TV Promotion
+  <iframe width="700" height="480" src="https://www.youtube.com/embed/vxOcfok-YG4" frameborder="0" allowfullscreen></iframe>
 * '나는 야구감독이다' 서비스의 운영 및 유지보수 업무를 담당
 * C++, MSSQL 사용 (Linux 플랫폼)
 * 카드 컨텐츠 추가, 데이터 테이블 관리 등을 담당
@@ -106,13 +99,10 @@ TV Promotion
 * '나는 야구감독이다 for kakao' 서비스를 위한 추가 개발 담당
 * 카카오톡 연동을 위한 친구정보관리 캐시서버를 구현
 * 친구초대와 선물 기능 등을 구현
-
-Admin Tool
-![](screenshot/bbm_tool/01_tool.png)
-
-Data Simulation Tool
-![](screenshot/bbm_data_simulator/01_simulator.png)
-
+* Admin Tool
+  ![](/assets/images/portfolio/bbm_tool/01_tool.png)
+* Data Simulation Tool
+  ![](/assets/images/portfolio/bbm_data_simulator/01_simulator.png)
 * 게임운영을 위한 툴 개발 (C# + Winform으로 구현)
 * 서버점검 시작/종료, 서버점검 메시지 설정, 서버점검 예약 기능 구현, 야구 경기 시뮬레이션 기능 등을 구현
 * 선수카드뽑기, 아이템뽑기 등 각종 뽑기 기능 시뮬레이션 기능을 구현
