@@ -25,7 +25,7 @@ C++이나 gcc를 사용하고 있다면 g++ 컴파일 옵션에 --coverage 를 �
 
 <https://github.com/dongbum/DServer/blob/master/.travis.yml>
 
-```YAML
+```yaml
 language: cpp
 
 os:
@@ -67,7 +67,7 @@ cmake로는 따로 옵션이 필요 없었다.
 
 다음과 같이 간단한 Traivs-CI 스크립트로 커버리지 테스트를 성공했다.
 
-```YAML
+```yaml
 language: python
 python:
   - 3.6
@@ -89,7 +89,7 @@ after_success:
 
 Flask 프레임워크를 사용하면 웹서버를 바로 실행시키는 형태로 프로그램이 작동하는지라 위의 coverage run 명령어로 테스트를 할 수가 없다. 이 명령으로 테스트를 하면 웹서버가 실행되고 프로세스가 종료되지 않기 때문에 travis의 빌드도 영원히 계속된다. 물론 이 상태로 10분 정도가 지나면 travis가 빌드실패로 처리해버린다. 따라서 Flask를 쓸때는 travis-ci에서 실제 프로그램을 실행시키는 형태가 아니라 코드커버리지 테스트만 수행해야한다. 이렇게 작동하기 위해서는 nose라는 또다른 코드커버리지 툴이 필요했다. travis-ci 스크립트는 다음처럼 같이 작성했다.
 
-```YAML
+```yaml
 language: python
 services:
   - mysql
