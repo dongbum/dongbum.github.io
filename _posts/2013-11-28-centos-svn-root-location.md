@@ -1,10 +1,6 @@
 ---
-id: 1233
 title: CentOS에서 SVN 서버 설정시 주의할 점
 date: 2013-11-28T01:39:26+09:00
-author: dongbum
-guid: http://blog.83rpm.com/?p=1233
-permalink: /archives/1233
 categories:
   - Linux
 tags:

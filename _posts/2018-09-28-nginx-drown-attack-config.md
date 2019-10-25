@@ -1,11 +1,6 @@
 ---
-id: 5239
 title: DROWN Attack 취약점 방지용 SSL 설정
 date: 2018-09-28T13:27:43+09:00
-author: dongbum
-
-guid: https://blog.dongbumkim.com/?p=5239
-permalink: /archives/5239
 categories:
   - Linux
 tags:
@@ -31,7 +26,7 @@ DROWN 공격 취약점에 대한 내용
 
 nginx virtualhost 설정에서
 
-```
+```nginx
 server {
         listen                  443 ssl default_server;
         root                    /opt/bitnami/apps/blog.dongbumkim.com/htdocs/;

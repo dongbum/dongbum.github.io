@@ -1,11 +1,6 @@
 ---
-id: 5426
 title: Flask + IIS 로 윈도우에서 서비스하기
 date: 2019-09-06T16:14:14+09:00
-author: dongbum
-
-guid: https://blog.dongbumkim.com/?p=5426
-permalink: /archives/5426
 categories:
   - Python
 tags:
@@ -37,7 +32,7 @@ Flask로 만든 라이센스서버를 윈도우에 올려보기로 한다. 테�
 <https://docs.microsoft.com/ko-kr/visualstudio/python/configure-web-apps-for-iis-windows?view=vs-2019>
 
 웹페이지를 보며 설정한다. 간단하게 web.config 파일만 생성해주면 되었다.
-```XML
+```xml
 <?xml version=1.0 encoding=utf-8?>
 <configuration>
   <system.webServer>

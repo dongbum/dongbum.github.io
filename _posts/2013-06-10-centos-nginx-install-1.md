@@ -1,10 +1,6 @@
 ---
-id: 1100
 title: 'CentOS 에서 nginx 설치 #1'
 date: 2013-06-10T16:58:13+09:00
-author: dongbum
-guid: http://blog.83rpm.com/?p=1100
-permalink: /archives/1100
 categories:
   - Linux
 tags:
@@ -22,7 +18,7 @@ php-fpm의 기본 설정 파일은 `/etc/php-fpm.d` 에 들어있다.
 
 nginx 설정파일을 수정한다. php를 사용하기 위해 중요한 설정은 다음과 같다.
 
-```
+```nginx
 server {
   listen 81;
   server_name www.83rpm.com; # 가상호스트가 쓸 도메인을 정의한다.

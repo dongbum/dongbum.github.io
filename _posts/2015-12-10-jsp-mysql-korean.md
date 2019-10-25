@@ -21,21 +21,21 @@ MySQL 접속시 접속주소에 설정을 해주어야 한다.
 
 나같은 경우 Commons 커넥션풀을 썼기 때문에 .jocl 파일 설정을 다음과 같이 변경했다.
 
-```XML
-<pre class="brush: xml; gutter: true"><object class="org.apache.commons.dbcp.PoolableConnectionFactory" xmlns="http://apache.org/xml/xmlns/jakarta/commons/jocl">
-<object class="org.apache.commons.dbcp.DriverManagerConnectionFactory">
-<string value="jdbc:mysql://localhost:3306/log_conquest?useUnicode=true&characterEncoding=utf-8" />
-<string value="root" />
-<string value="root_passwd" />
+```xml
+<object class="org.apache.commons.dbcp.PoolableConnectionFactory" xmlns="http://apache.org/xml/xmlns/jakarta/commons/jocl">
+  <object class="org.apache.commons.dbcp.DriverManagerConnectionFactory">
+    <string value="jdbc:mysql://localhost:3306/log_conquest?useUnicode=true&characterEncoding=utf-8" />
+    <string value="root" />
+    <string value="root_passwd" />
+  </object>
+  <object class="org.apache.commons.pool.impl.GenericObjectPool">
+    <object class="org.apache.commons.pool.PoolableObjectFactory" null="true" />
+  </object>
+  <object class="org.apache.commons.pool.KeyedObjectPoolFactory" null="true" />
+  <string null="true" />
+  <boolean value="false" />
+  <boolean value="true" />
 </object>
-<object class="org.apache.commons.pool.impl.GenericObjectPool">
-<object class="org.apache.commons.pool.PoolableObjectFactory" null="true" />
-</object>
-<object class="org.apache.commons.pool.KeyedObjectPoolFactory" null="true" />
-<string null="true" />
-<boolean value="false" />
-<boolean value="true" />
-</object></pre>
 ```
 
 중요한 부분은 MySQL 접속 주소를 쓸 때 뒤에 붙는 파라미터이다.

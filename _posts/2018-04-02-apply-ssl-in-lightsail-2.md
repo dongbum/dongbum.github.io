@@ -1,11 +1,7 @@
 ---
-id: 5158
 title: Lightsail 에서 NGINX에 SSL 적용하기 (2)
 date: 2018-04-02T15:35:35+09:00
 author: dongbum
-
-guid: http://blog.83rpm.com/?p=5158
-permalink: /archives/5158
 categories:
   - AWS
   - Lightsail
@@ -30,7 +26,7 @@ tags:
 
 기존의 파일 내용은 다음과 같다.
 
-```
+```nginx
 server {
         listen          80;
         root            /opt/bitnami/apps/ssl.83rpm.com/htdocs;
@@ -42,7 +38,7 @@ server {
 
 이 파일 내용을 다음과 같이 변경한다.
 
-```
+```nginx
 server {
         listen          80;
         root            /opt/bitnami/apps/ssl.83rpm.com/htdocs;
@@ -67,7 +63,9 @@ server {
 
 수정이 완료되었다면 lightsail 재시작 명령어로 모두 재시작한다.
 
-`sudo /opt/bitnami/ctlscript.sh restart`
+```
+sudo /opt/bitnami/ctlscript.sh restart
+```
 
 재시작하고 난 뒤 웹브라우저를 열고 https://ssl.83rpm.com 으로 접속이 잘 되는지 확인해본다.
 
@@ -79,7 +77,7 @@ server {
 
 만약, **HTTP로 접속하더래도 무조건 HTTPS로 강제로 접속시키고 싶다면**, `nginx-vhost.conf` 파일을 열고 다음과 같은 설정을 추가한다.
 
-```
+```nginx
 server {
         listen          80;
         root            /opt/bitnami/apps/ssl.83rpm.com/htdocs;

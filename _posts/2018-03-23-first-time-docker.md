@@ -1,11 +1,6 @@
 ---
-id: 5140
 title: Docker 설치 사용 후기
 date: 2018-03-23T15:41:05+09:00
-author: dongbum
-
-guid: http://blog.83rpm.com/?p=5140
-permalink: /archives/5140
 categories:
   - Docker
   - Virtualization
