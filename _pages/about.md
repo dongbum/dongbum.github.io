@@ -1,3 +1,10 @@
+---
+title: "About"
+layout: single
+permalink: /about/
+author_profile: true
+---
+
 # DONGBUM KIM
 
 ### Game Server Developer
