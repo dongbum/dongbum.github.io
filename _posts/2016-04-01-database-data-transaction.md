@@ -36,7 +36,7 @@ MSSQL을 기준으로하며, 서로 링크드 서버로 연결되어 있어야 �
 
 변경할 테이블에 트리거를 생성한다.
 
-```SQL
+```sql
 CREATE TRIGGER dbo.트리거명 ON dbo.A서버테이블명
 FOR UPDATE
 AS

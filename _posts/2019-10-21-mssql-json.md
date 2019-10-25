@@ -23,7 +23,7 @@ JSON 데이터를 저장하기 위한 컬럼 타입은 `NVARCHAR(MAX)` 를 사�
 
 INSERT 시 다음 처럼 입력한다.
 
-```SQL
+```sql
 INSERT INTO jsontest VALUES (1, N'{"EmployeeInfo": {
             "FirstName": "John",
             "LastName": "Doe",
@@ -52,7 +52,7 @@ JSON 데이터의 유효성을 판단한다. 이 함수를 통해 JSON 데이터
 
 #### JSON_VALUE
 
-```SQL
+```sql
 SELECT JSON_VALUE(json_data, '$.EmployeeInfo.FirstName') FROM jsontest
 ```
 
@@ -70,7 +70,7 @@ SELECT JSON_VALUE(json_data, '$.EmployeeInfo.FirstName') FROM jsontest
 
 예를 들면,
 
-```SQL
+```sql
 SELECT JSON_VALUE(json_data, '$.EmployeeInfo') FROM jsontest
 SELECT JSON_QUERY(json_data, '$.EmployeeInfo') FROM jsontest
 ```
@@ -101,7 +101,7 @@ JSON 데이터의 값을 수정한다.
 
 다음처럼 사용 가능하다.
 
-```SQL
+```sql
 DECLARE @json NVARCHAR(MAX)
 SET @json = (SELECT JSON_QUERY(json_data, '$.EmployeeInfo') FROM jsontest)
 
@@ -116,7 +116,7 @@ SELECT * FROM OPENJSON(@json)</code></pre>
 
 for json은 테이블에 있는 데이터들을 JSON 형식으로 내보내기 위한 함수이다.
 
-```SQL
+```sql
 SELECT * FROM jsontest FOR JSON AUTO
 ```
 
