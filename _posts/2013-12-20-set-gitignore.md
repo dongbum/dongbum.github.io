@@ -1,19 +1,13 @@
 ---
-id: 1263
 title: .gitignore 파일 설정하기
 date: 2013-12-20T10:16:47+09:00
-author: dongbum
-layout:
-  - default
-  - default
-guid: http://blog.83rpm.com/?p=1263
-permalink: /archives/1263
 categories:
   - GIT
 tags:
   - .gitignore
   - GIT
 ---
+
 git을 이용할 때 무시하고 싶은 파일이 있을 때에는 .gitignore 파일을 작성하여 사용한다.
 
 .gitignore 파일을 작성하는 방법 : <http://emflant.tistory.com/127>
@@ -22,7 +16,7 @@ git을 이용할 때 무시하고 싶은 파일이 있을 때에는 .gitignore �
 
 git으로 관리하고 있는 프로젝트의 루트로 이동한다.
 
-```
+```console
 git rm -r --cached .
 
 git add .
