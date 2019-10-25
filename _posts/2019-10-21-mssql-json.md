@@ -30,7 +30,7 @@ INSERT INTO jsontest VALUES (1, N'{"EmployeeInfo": {
             "Dob": "12-Jan-1970",
             "AnnualSalary": 85000
         }}')
-        ```
+```
 
 SELECT 하면 JSON 데이터가 그대로 나온다.
 
