@@ -2,7 +2,7 @@
 id: 5084
 title: 'tcmalloc 은 왜 VS2015, VS2017에서 안될까'
 date: 2018-02-06T16:21:16+09:00
-author: dongbum
+
 guid: http://blog.83rpm.com/?p=5084
 permalink: /archives/5084
 categories:

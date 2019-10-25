@@ -1,19 +1,12 @@
 ---
-id: 4060
 title: JSP에서 MySQL 데이터 입력시 한글 깨질 때 처리법
 date: 2015-12-10T22:16:45+09:00
-author: dongbum
-layout:
-  - default
-  - default
-guid: http://blog.83rpm.com/?p=4060
-permalink: /archives/4060
 categories:
   - Database/SQL
 ---
 로그 솔루션을 구축하던 중 JSP에서 MySQL에 데이터를  입력하다가 한글이 계속 깨졌다.
 
-C++ 서버에서도 TCHAR로 한글을 처리하고 UTF-8로 맞추어 HTTP 전송했고, JSP 페이지들 모두 UTF-8 설정을 했고, JSP 파일 자체의 인코딩도 문제가 없었으며 request.setCharacterEncoding("utf-8"); 코드도 입력된 상태였다.
+C++ 서버에서도 TCHAR로 한글을 처리하고 UTF-8로 맞추어 HTTP 전송했고, JSP 페이지들 모두 UTF-8 설정을 했고, JSP 파일 자체의 인코딩도 문제가 없었으며 `request.setCharacterEncoding("utf-8");` 코드도 입력된 상태였다.
 
 이유를 몰라서 몇일을 헤메다가 해결방법을 찾았다.
 

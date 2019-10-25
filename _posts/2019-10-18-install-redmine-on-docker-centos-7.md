@@ -1,7 +1,7 @@
 ---
 title: CentOS 7 에서 Docker로 Redmine 설치
 date: 2019-10-18T14:46:13+09:00
-author: dongbum
+
 categories:
   - AWS
   - GIT

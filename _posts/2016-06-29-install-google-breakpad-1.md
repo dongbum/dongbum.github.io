@@ -1,13 +1,6 @@
 ---
-id: 4224
 title: Google Breakpad 설치 (1)
 date: 2016-06-29T11:24:48+09:00
-author: dongbum
-layout:
-  - default
-  - default
-guid: http://blog.83rpm.com/?p=4224
-permalink: /archives/4224
 categories:
   - C/C++/MFC
   - Programming
@@ -58,7 +51,7 @@ GIT을 이용하면 되긴하나 귀찮으므로 master 브랜치를 선택하�
 
 라고 한다. 해봤다.
 
-```
+```console
 D:\Library\google-breakpad\src\client\windows>d:\Library\gyp-master\gyp.bat breakpad_client.gyp
 gyp: Cycles in .gyp file dependency graph detected:
 Cycle: breakpad_client.gyp -> sender\crash_report_sender.gyp -> breakpad_client.gyp

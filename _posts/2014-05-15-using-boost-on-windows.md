@@ -1,10 +1,6 @@
 ---
-id: 1460
 title: 윈도우에서 C++ Boost 사용하기
 date: 2014-05-15T00:49:25+09:00
-author: dongbum
-guid: http://blog.83rpm.com/?p=1460
-permalink: /archives/1460
 categories:
   - boost
   - C/C++/MFC

@@ -2,7 +2,7 @@
 id: 1223
 title: CentOS에서 Jenkins 설치하기
 date: 2013-11-17T14:28:30+09:00
-author: dongbum
+
 guid: http://blog.83rpm.com/?p=1223
 permalink: /archives/1223
 categories:

@@ -2,7 +2,7 @@
 id: 4074
 title: 리눅스에서 4TB 하드디스크 파티션하고 포맷하는 방법
 date: 2015-12-17T22:28:22+09:00
-author: dongbum
+
 guid: http://blog.83rpm.com/?p=4074
 permalink: /archives/4074
 categories:

@@ -2,7 +2,7 @@
 id: 5146
 title: 'docker 시작시  에러'
 date: 2018-04-02T14:04:29+09:00
-author: dongbum
+
 
 guid: http://blog.83rpm.com/?p=5146
 permalink: /archives/5146

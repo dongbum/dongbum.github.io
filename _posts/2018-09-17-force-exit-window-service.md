@@ -2,7 +2,7 @@
 id: 5227
 title: 윈도우 서비스 강제종료
 date: 2018-09-17T15:25:01+09:00
-author: dongbum
+
 
 guid: http://blog.dongbumkim.com/?p=5227
 permalink: /archives/5227

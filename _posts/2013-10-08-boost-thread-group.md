@@ -1,10 +1,6 @@
 ---
-id: 1199
 title: boost::thread_group
 date: 2013-10-08T11:47:32+09:00
-author: dongbum
-guid: http://blog.83rpm.com/?p=1199
-permalink: /archives/1199
 categories:
   - C/C++/MFC
 tags:

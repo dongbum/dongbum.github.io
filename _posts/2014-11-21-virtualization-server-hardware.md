@@ -2,7 +2,7 @@
 id: 3897
 title: '가상화를 위한 준비 #1 - 서버 하드웨어'
 date: 2014-11-21T11:32:13+09:00
-author: dongbum
+
 
 guid: http://www.83rpm.com/?p=3897
 permalink: /archives/3897

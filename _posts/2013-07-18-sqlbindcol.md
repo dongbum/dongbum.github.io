@@ -1,10 +1,6 @@
 ---
-id: 1120
 title: SQLBindCol에 대한 정리
 date: 2013-07-18T12:07:44+09:00
-author: dongbum
-guid: http://blog.83rpm.com/?p=1120
-permalink: /archives/1120
 categories:
   - Database/SQL
 tags:
@@ -17,6 +13,5 @@ tags:
 
 SQLBindCol에 대한 MSDN의 정리 문서
 
-한글번역판 : <http://msdn.microsoft.com/ko-kr/library/ms131269.aspx>
-
-원문 : <http://msdn.microsoft.com/en-us/library/ms131269.aspx>
+* 한글번역판 : <http://msdn.microsoft.com/ko-kr/library/ms131269.aspx>
+* 원문 : <http://msdn.microsoft.com/en-us/library/ms131269.aspx>

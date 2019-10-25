@@ -1,10 +1,6 @@
 ---
-id: 1201
 title: 맥 OSX에서 리눅스의 X-Window에 접속하는 방법
 date: 2013-10-12T01:50:24+09:00
-author: dongbum
-guid: http://blog.83rpm.com/?p=1201
-permalink: /archives/1201
 categories:
   - Linux
 tags:

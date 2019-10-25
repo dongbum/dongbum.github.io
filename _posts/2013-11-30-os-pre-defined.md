@@ -2,7 +2,7 @@
 id: 1235
 title: 운영체제별 Pre-defined 정보
 date: 2013-11-30T12:52:25+09:00
-author: dongbum
+
 guid: http://blog.83rpm.com/?p=1235
 permalink: /archives/1235
 categories:

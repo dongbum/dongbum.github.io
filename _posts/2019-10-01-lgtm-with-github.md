@@ -1,7 +1,7 @@
 ---
 title: Github와 연동 가능한 LGTM.com
 date: 2019-10-01T12:19:24+09:00
-author: dongbum
+
 categories:
   - C/C++/MFC
   - GIT

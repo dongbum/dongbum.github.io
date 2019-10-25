@@ -1,10 +1,6 @@
 ---
-id: 5406
 title: Visual Studio 에서 cURL 설치
 date: 2019-08-12T17:38:16+09:00
-author: dongbum
-guid: https://blog.dongbumkim.com/?p=5406
-permalink: /archives/5406
 categories:
   - C/C++/MFC
 tags:
@@ -26,7 +22,7 @@ tags:
 
 왜인지 모르겠는데 프로젝트 로드가 안된다. 프로젝트 파일이 없나 해당 위치에 가서 살펴봤는데.... 진짜로 프로젝트 파일이 없다! 어떻게 해야되나 고민하던 중에 project 폴더를 보니 여러개의 배치파일이 보였다. 일단 checksrc.bat 파일을 실행했다. 한참 아무메시지가 없더니만 프로그램이 종료되었다. 별 문제가 없으면 별 메시지를 출력하지 않나보다. (bat 파일 내용을 읽어보진 않았다.) 이제 왠지 프로젝트를 생성해줄 것 같은 generate.bat 파일을 실행했다. 예상대로...
 
-```
+```console
     D:\Library\curl.git\projects>checksrc.bat
 
     D:\Library\curl.git\projects>generate.bat
@@ -52,7 +48,7 @@ tags:
 
 예상대로 프로젝트 파일을 생성해주었다. 이제 다시 아까 VC12 폴더로 가서 솔루션 파일을 여니까 프로젝트가 보인다! 솔루션 빌드를 눌렀더니.... ...안된다...
 
-```
+```console
     1>d:\library\curl.git\lib\ssh.h(28): fatal error C1083: 포함 파일을 열 수 없습니다. 'libssh2.h': No such file or directory
     1>..\..\..\..\lib\md5.c(88): fatal error C1083: 포함 파일을 열 수 없습니다. 'openssl/md5.h': No such file or directory
     1>..\..\..\..\lib\md4.c(31): fatal error C1083: 포함 파일을 열 수 없습니다. 'openssl/opensslconf.h': No such file or directory
@@ -60,7 +56,7 @@ tags:
 
 메시지가 쭉 박혀있었다. 다시 project 폴더에 가서 왠지 ssl 문제를 해결해줄 것 같은 build-openssl.bat 파일을 실행시키니 다음과 같은 안내가 나왔다.
 
-```
+```console
     D:\Library\curl.git\projects>build-openssl.bat
 
     Usage: build-openssl <compiler> [platform] [configuration] [directory] [-VSpath] [VSpath] [-perlpath] [perlpath]

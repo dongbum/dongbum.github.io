@@ -1,13 +1,6 @@
 ---
-id: 4070
 title: HP MicroServer Gen8
 date: 2015-12-18T10:22:06+09:00
-author: dongbum
-layout:
-  - default
-  - default
-guid: http://blog.83rpm.com/?p=4070
-permalink: /archives/4070
 categories:
   - MicroServer
 tags:

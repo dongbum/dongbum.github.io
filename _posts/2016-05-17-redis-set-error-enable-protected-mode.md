@@ -2,7 +2,7 @@
 id: 4171
 title: Redis 사용시 SET 이 에러나거나 Protected Mode 가 활성화 될 때 해결방법
 date: 2016-05-17T15:16:46+09:00
-author: dongbum
+
 
 guid: http://blog.83rpm.com/?p=4171
 permalink: /archives/4171

@@ -1,13 +1,7 @@
 ---
-id: 4239
 title: Google Breakpad 설치 (2)
 date: 2018-12-24T16:34:44+09:00
-author: dongbum
-layout:
-  - default
-  - default
-guid: http://blog.83rpm.com/?p=4239
-permalink: /archives/4239
+
 categories:
   - C/C++/MFC
   - Programming

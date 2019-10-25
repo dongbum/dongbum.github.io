@@ -1,10 +1,6 @@
 ---
-id: 1094
 title: lua에서 sleep 기능 추가하기
 date: 2013-05-28T10:42:18+09:00
-author: dongbum
-guid: http://blog.83rpm.com/?p=1094
-permalink: /archives/1094
 categories:
   - Lua
 tags:

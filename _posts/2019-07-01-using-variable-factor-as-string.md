@@ -1,11 +1,6 @@
 ---
-id: 5389
 title: 가변인자를 string 으로 사용하기
 date: 2019-07-01T11:30:30+09:00
-author: dongbum
-
-guid: https://blog.dongbumkim.com/?p=5389
-permalink: /archives/5389
 categories:
   - C/C++/MFC
 ---

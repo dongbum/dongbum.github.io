@@ -2,7 +2,7 @@
 id: 1445
 title: 'C#에서 HTTP POST로 JSON 데이터 보내는 방법'
 date: 2014-04-03T13:50:44+09:00
-author: dongbum
+
 guid: http://blog.83rpm.com/?p=1445
 permalink: /archives/1445
 tags:

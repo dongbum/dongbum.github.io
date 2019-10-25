@@ -1,7 +1,7 @@
 ---
 title: MSSQL에서 JSON 사용하기
 date: 2019-10-21 16:48:38+09:00
-author: dongbum
+
 categories:
   - Database
   - SQL

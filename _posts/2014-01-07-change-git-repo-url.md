@@ -1,13 +1,6 @@
 ---
-id: 1279
 title: git 저장소 주소 변경하기
 date: 2014-01-07T17:03:59+09:00
-author: dongbum
-layout:
-  - default
-  - default
-guid: http://blog.83rpm.com/?p=1279
-permalink: /archives/1279
 categories:
   - GIT
 tags:
@@ -20,13 +13,13 @@ tags:
 
 현재 작업 디렉토리와 연결된 저장소 URL을 알아내려면
 
-```
+```console
 git remote show origin
 ```
 
 현재 작업 디렉토리와 연결된 저장소 URL을 변경하려면
 
-```
+```console
 git remote set-url origin ssh://git서버주소
 ```
 

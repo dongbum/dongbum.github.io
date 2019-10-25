@@ -1,13 +1,6 @@
 ---
-id: 4123
 title: 서로 다른 DB 머신에서 데이터 트랜잭션 처리
 date: 2016-04-01T22:29:42+09:00
-author: dongbum
-layout:
-  - default
-  - default
-guid: http://blog.83rpm.com/?p=4123
-permalink: /archives/4123
 categories:
   - Database/SQL
   - Note of the wrong answers

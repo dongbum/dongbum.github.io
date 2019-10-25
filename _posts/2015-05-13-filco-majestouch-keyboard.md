@@ -2,7 +2,7 @@
 id: 3965
 title: 필코 마제스터치2 닌자에서 한글 전환 안될 때 해결법
 date: 2015-05-13T09:37:07+09:00
-author: dongbum
+
 
 guid: http://blog.83rpm.com/?p=3965
 permalink: /archives/3965

@@ -1,10 +1,6 @@
 ---
-id: 1057
 title: 'C++에서 #변수명 사용법'
 date: 2013-02-19T11:33:43+09:00
-author: dongbum
-guid: http://blog.83rpm.com/?p=1057
-permalink: /archives/1057
 categories:
   - C/C++/MFC
 tags:

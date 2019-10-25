@@ -1,11 +1,6 @@
 ---
-id: 5377
 title: boost에서 OpenSSL 사용하기 (2)
 date: 2019-05-10T17:18:14+09:00
-author: dongbum
-
-guid: https://blog.dongbumkim.com/?p=5377
-permalink: /archives/5377
 categories:
   - boost
   - C/C++/MFC

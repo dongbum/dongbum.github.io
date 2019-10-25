@@ -1,18 +1,13 @@
 ---
-id: 4552
 title: apache 2.4 + flask 설정방법
 date: 2019-09-04T18:55:15+09:00
-author: dongbum
-
-guid: http://blog.83rpm.com/?p=4552
-permalink: /archives/4552
 categories:
   - Linux
   - Python
 ---
 아파치에서 Flask로 만들어진 어플리케이션을 작동하기 위한 방법을 정리해둔다. 에러메시지는
 
-```
+```console
     [Mon Jul 03 19:42:27.334280 2017] [:error] [pid 14570] [client 59.10.233.103:63211] Traceback (most recent call last):
     [Mon Jul 03 19:42:27.334301 2017] [:error] [pid 14570] [client 59.10.233.103:63211] File /home/viper9/python_test/VeloWeight.wsgi, line 7, in <module>
     [Mon Jul 03 19:42:27.334349 2017] [:error] [pid 14570] [client 59.10.233.103:63211] from hello import app as application
@@ -33,11 +28,15 @@ categories:
 
 > Working with Virtual Environments Virtual environments have the advantage that they never install the required dependencies system wide so you have a better control over what is used where. If you want to use a virtual environment with mod_wsgi you have to modify your .wsgi file slightly. Add the following lines to the top of your .wsgi file: activate_this = \'/path/to/env/bin/activate_this.py\' execfile(activate_this, dict(**file**=activate_this)) For Python 3 add the following lines to the top of your .wsgi file: activate_this = \'/path/to/env/bin/activate_this.py\' with open(activate_this) as file_: exec(file_.read(), dict(**file**=activate_this))
 
-`execfile(activate_this, dict(**file**=activate_this))`
+```
+execfile(activate_this, dict(**file**=activate_this))
+```
 
 를 삭제하고
 
-`with open(activate_this) as file_: exec(file_.read(), dict(**file**=activate_this))`
+```
+with open(activate_this) as file_: exec(file_.read(), dict(**file**=activate_this))
+```
 
 를 추가했다. 하지만 다시 실행해도 같은 에러... wsgi 파일을 다음과 같이 수정했다.
 
@@ -59,11 +58,15 @@ from hello import app as application
 
 MySQL 에러가 난다면 다음의 패키지를 설치한다.
 
-`yum install MySQL-python`
+```
+yum install MySQL-python
+```
 
 해결했더니 그 다음 에러...
 
-`UnicodeDecodeError: \'ascii\' codec can\'t decode byte 0xae in position 8: ordinal not in range(128)`
+```
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xae in position 8: ordinal not in range(128)
+```
 
 <https://libsora.so/posts/python-hangul/> 를 찾아보니 인코딩의 문제라고 한다. 문서를 보고 해결. .wsgi 에 설정을 추가했다.
 

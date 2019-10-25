@@ -2,7 +2,7 @@
 id: 1239
 title: CentOS에 FreeTDS 설치하기
 date: 2013-12-05T16:06:49+09:00
-author: dongbum
+
 guid: http://blog.83rpm.com/?p=1239
 permalink: /archives/1239
 categories:

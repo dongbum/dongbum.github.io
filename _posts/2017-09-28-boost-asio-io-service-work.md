@@ -2,7 +2,7 @@
 id: 4611
 title: boost::asio::io_service::work 가 무엇인가
 date: 2017-09-28T16:47:38+09:00
-author: dongbum
+
 
 guid: http://blog.83rpm.com/?p=4611
 permalink: /archives/4611

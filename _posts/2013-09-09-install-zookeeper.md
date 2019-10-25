@@ -1,10 +1,6 @@
 ---
-id: 1133
 title: Zookeeper 설치
 date: 2013-09-09T22:49:37+09:00
-author: dongbum
-guid: http://blog.83rpm.com/?p=1133
-permalink: /archives/1133
 categories:
   - C/C++/MFC
   - Linux
@@ -29,7 +25,7 @@ tags:
 
 실행하면 다음과 같은 화면이 출력된다.
 
-```
+```console
 JMX enabled by default
 Using config: /backup/program/zookeeper-3.4.5/bin/../conf/zoo.cfg
 Usage: ./zkServer.sh {start|start-foreground|stop|restart|status|upgrade|print-cmd}
@@ -39,7 +35,7 @@ CentOS의 service 와 마찬가지로 실행옵션을 주면서 실행할 수 �
 
 ./zkServer.sh start 를 입력했다.
 
-```
+```console
 JMX enabled by default
 Using config: /backup/program/zookeeper-3.4.5/bin/../conf/zoo.cfg
 Starting zookeeper ... STARTED
@@ -96,7 +92,7 @@ if [ "$JAVA_HOME" != "" ]; then
 
 처럼 바꾸고 다시 ./zkServer.sh start 를 실행한다. 아무 문제 없이 STARTED 되었다고 나오고, 다시 ./zkServer.sh status 를 입력해보면
 
-```
+```console
 JMX enabled by default
  Using config: /backup/program/zookeeper-3.4.5/bin/../conf/zoo.cfg
  Mode: standalone

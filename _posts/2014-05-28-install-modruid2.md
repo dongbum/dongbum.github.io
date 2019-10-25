@@ -1,10 +1,6 @@
 ---
-id: 1487
 title: mod_ruid2 설치 방법
 date: 2014-05-28T21:08:58+09:00
-author: dongbum
-guid: http://blog.83rpm.com/?p=1487
-permalink: /archives/1487
 categories:
   - Linux
 tags:
@@ -19,9 +15,13 @@ Apache 2 버전에서 mod_ruid2 를 설치하기로 했다.
 
 참고로, 내 서버의 환경은 CentOS 6.5 이며 모든 최신업데이트가 전부 적용되어 있다. Apache는 CentOS에서 제공하는 아파치를 사용하고 있다.
 
-`apxs -a -i -l cap -c mod_ruid2.c` 명령을 내리면 컴파일이 시작된다.
-
+```console
+apxs -a -i -l cap -c mod_ruid2.c
 ```
+
+명령을 내리면 컴파일이 시작된다.
+
+```console
 ----------------------------------------------------------------------
  Libraries have been installed in:
  /usr/lib64/httpd/modules
@@ -49,13 +49,15 @@ Apache 2 버전에서 mod_ruid2 를 설치하기로 했다.
 
 아파치 폴더의 httpd.conf 를 보면,
 
-`LoadModule ruid2\_module       /usr/lib64/httpd/modules/mod_ruid2.so`
+```
+LoadModule ruid2_module       /usr/lib64/httpd/modules/mod_ruid2.so
+```
 
 처럼 모듈 로딩 명령이 들어가 있다.
 
 가상호스트 설정에 들어가서 다음의 내용을 추가한다.
 
-```
+```apache
 <IfModule mod_ruid2.c>
  RMode config
  RUidGid 원하는유저ID 원하는그룹ID
@@ -72,7 +74,7 @@ Apache 2 버전에서 mod_ruid2 를 설치하기로 했다.
 
 #### 참고자료
   이 내용은 <http://fullpowe.blog.me/10158911404>를 참조했다.
-</p>
 
+**추가**
 
-추가. 위 php 파일의 makedir() 함수로 테스트를 하려했으나 mod_security 모듈에 의한 보안정책 위반으로 제대로 실행되지 않았다. 자체적으로 테스트해본 결과, mod_ruid2 모듈은 정상적으로 작동하는 것을 확인하였다.
+위 php 파일의 makedir() 함수로 테스트를 하려했으나 mod_security 모듈에 의한 보안정책 위반으로 제대로 실행되지 않았다. 자체적으로 테스트해본 결과, mod_ruid2 모듈은 정상적으로 작동하는 것을 확인하였다.

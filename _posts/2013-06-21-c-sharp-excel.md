@@ -1,10 +1,6 @@
 ---
-id: 1104
 title: 'C#에서 엑셀 문서 저장하기'
 date: 2013-06-21T11:04:13+09:00
-author: dongbum
-guid: http://blog.83rpm.com/?p=1104
-permalink: /archives/1104
 categories:
   - 'C#'
 tags:

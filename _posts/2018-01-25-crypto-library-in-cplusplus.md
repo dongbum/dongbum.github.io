@@ -2,7 +2,7 @@
 id: 5078
 title: C++에서 사용 가능한 암호화 라이브러리
 date: 2018-01-25T17:02:26+09:00
-author: dongbum
+
 
 guid: http://blog.83rpm.com/?p=5078
 permalink: /archives/5078

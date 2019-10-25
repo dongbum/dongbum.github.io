@@ -1,10 +1,6 @@
 ---
-id: 1153
 title: CentOS에서 GIT 설치
 date: 2013-09-13T00:39:14+09:00
-author: dongbum
-guid: http://blog.83rpm.com/?p=1153
-permalink: /archives/1153
 categories:
   - GIT
   - Linux
@@ -25,7 +21,7 @@ yum으로 설치하려 했으나 역시 공식 레포지토리에는 없다. 검
 
 압축을 푼 후
 
-```
+```console
 make configure
 ./configure --prefix=/usr/local/git --with-openssl --with-libpcre --with-curl --with-expat --with-iconv --with-perl --with-python --with-zlib --with-tcltk
 make

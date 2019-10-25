@@ -1,10 +1,6 @@
 ---
-id: 1073
 title: 루아에서 간단한 파일 쓰기
 date: 2013-04-08T18:39:42+09:00
-author: dongbum
-guid: http://blog.83rpm.com/?p=1073
-permalink: /archives/1073
 categories:
   - Lua
 ---

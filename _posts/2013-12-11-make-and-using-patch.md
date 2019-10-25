@@ -2,7 +2,7 @@
 id: 1251
 title: patch 파일 만들고 적용하기
 date: 2013-12-11T09:35:18+09:00
-author: dongbum
+
 guid: http://blog.83rpm.com/?p=1251
 permalink: /archives/1251
 categories:

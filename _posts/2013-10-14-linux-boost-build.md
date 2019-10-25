@@ -1,10 +1,6 @@
 ---
-id: 1203
 title: 리눅스에서 boost 라이브러리 빌드하기
 date: 2013-10-14T23:02:36+09:00
-author: dongbum
-guid: http://blog.83rpm.com/?p=1203
-permalink: /archives/1203
 categories:
   - C/C++/MFC
 tags:
@@ -24,7 +20,7 @@ tags:
 
 압축을 해제한 디렉토리로 들어가서 `./bootstrap.sh` 파일을 실행한다.
 
-```
+```console
 [root@83rpm boost_1_54_0]# ./bootstrap.sh
 Building Boost.Build engine with toolset gcc... tools/build/v2/engine/bin.linuxx86_64/b2
 Detecting Python version... 2.6
@@ -49,7 +45,7 @@ http://www.boost.org/boost-build2/doc/html/index.html
 
 메시지에 나타난대로 ./b2 명령어를 입력하면 빌드가 시작된다. 내 서버의 CPU는 Xeon E3 1220 인데도... 꽤나 오래걸린다. 빌드하는 동안 CPU 사용률이 30~50% 정도를 왔다갔다한다. 대략 10~15분 정도 걸리는 것 같다.
 
-```
+```console
 ...(생략)...
 cc.compile.c++ bin.v2/libs/wave/build/gcc-4.4.7/release/link-static/threading-multi/token_ids.o
 gcc.compile.c++ bin.v2/libs/wave/build/gcc-4.4.7/release/link-static/threading-multi/wave_config_constant.o

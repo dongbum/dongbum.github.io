@@ -1,10 +1,6 @@
 ---
-id: 1188
 title: 'C#에서 엔디안 변경'
 date: 2013-10-02T13:47:00+09:00
-author: dongbum
-guid: http://blog.83rpm.com/?p=1188
-permalink: /archives/1188
 categories:
   - 'C#'
 tags:

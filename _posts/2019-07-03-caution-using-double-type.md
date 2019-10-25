@@ -1,11 +1,6 @@
 ---
-id: 5391
 title: double 타입 사용시 주의할 점
 date: 2019-07-03T18:59:46+09:00
-author: dongbum
-
-guid: https://blog.dongbumkim.com/?p=5391
-permalink: /archives/5391
 categories:
   - C/C++/MFC
   - Note of the wrong answers

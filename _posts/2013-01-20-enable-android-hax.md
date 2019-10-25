@@ -1,10 +1,6 @@
 ---
-id: 1045
 title: 안드로이드 에뮬레이터 HAX 기능 활성화하기
 date: 2013-01-20T15:53:26+09:00
-author: dongbum
-guid: http://blog.83rpm.com/?p=1045
-permalink: /archives/1045
 categories:
   - Android
 tags:

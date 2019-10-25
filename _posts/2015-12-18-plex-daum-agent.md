@@ -2,7 +2,7 @@
 id: 4082
 title: PLEX에서 다음검색에이전트 설치
 date: 2015-12-18T13:47:48+09:00
-author: dongbum
+
 guid: http://blog.83rpm.com/?p=4082
 permalink: /archives/4082
 categories:

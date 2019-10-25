@@ -1,10 +1,6 @@
 ---
-id: 1150
 title: Boost alt_sstream_impl.hpp warning C4819 에러 해결 방법
 date: 2013-09-12T12:11:31+09:00
-author: dongbum
-guid: http://blog.83rpm.com/?p=1150
-permalink: /archives/1150
 categories:
   - C/C++/MFC
 tags:
@@ -17,7 +13,7 @@ tags:
 
 내용은
 
-```
+```console
 1>C:Libraryboost_1_51_0boost/format/alt_sstream_impl.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..srcbusinessservicepbbmcacheMemberInfoManager.cpp)
 ```
 

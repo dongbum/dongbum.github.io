@@ -2,7 +2,7 @@
 id: 1254
 title: 아파치에서 특정 도메인에 대한 페이지를 모두 포워딩하기
 date: 2013-12-15T01:24:59+09:00
-author: dongbum
+
 guid: http://blog.83rpm.com/?p=1254
 permalink: /archives/1254
 categories:

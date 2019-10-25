@@ -2,7 +2,7 @@
 id: 3922
 title: WITH(UPDLOCK) 힌트와 MSSQL에서 락 해제하는 방법
 date: 2014-12-18T15:10:20+09:00
-author: dongbum
+
 
 guid: http://blog.83rpm.com/?p=3922
 permalink: /archives/3922

@@ -2,7 +2,7 @@
 id: 5125
 title: rasplex에서 폰트 저장 위치
 date: 2018-02-15T18:18:45+09:00
-author: dongbum
+
 
 guid: http://blog.83rpm.com/?p=5125
 permalink: /archives/5125

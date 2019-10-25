@@ -2,7 +2,7 @@
 id: 4203
 title: GCC 최적화 옵션
 date: 2016-06-02T18:30:43+09:00
-author: dongbum
+
 
 guid: http://blog.83rpm.com/?p=4203
 permalink: /archives/4203

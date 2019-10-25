@@ -2,7 +2,7 @@
 id: 4755
 title: 메모리복사시 침범 문제
 date: 2017-11-29T09:19:47+09:00
-author: dongbum
+
 
 guid: http://blog.83rpm.com/?p=4755
 permalink: /archives/4755

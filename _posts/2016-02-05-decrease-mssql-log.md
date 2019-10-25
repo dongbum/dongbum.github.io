@@ -1,13 +1,6 @@
 ---
-id: 4098
 title: MSSQL 로그 파일 용량 줄이는 방법
 date: 2016-02-05T11:12:01+09:00
-author: dongbum
-layout:
-  - default
-  - default
-guid: http://blog.83rpm.com/?p=4098
-permalink: /archives/4098
 builder_switch_frontend:
   - "0"
   - "0"

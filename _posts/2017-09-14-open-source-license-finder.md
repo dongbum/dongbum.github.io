@@ -2,7 +2,7 @@
 id: 4578
 title: 오픈소스 라이센스 검색사이트
 date: 2017-09-14T14:14:25+09:00
-author: dongbum
+
 
 guid: http://blog.83rpm.com/?p=4578
 permalink: /archives/4578

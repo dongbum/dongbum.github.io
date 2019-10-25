@@ -1,10 +1,6 @@
 ---
-id: 1051
 title: 'C#에서 레지스트리 읽고 쓰는 방법'
 date: 2013-01-29T14:11:05+09:00
-author: dongbum
-guid: http://blog.83rpm.com/?p=1051
-permalink: /archives/1051
 categories:
   - 'C#'
 tags:
