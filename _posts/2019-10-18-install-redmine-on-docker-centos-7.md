@@ -32,7 +32,17 @@ CentOS 7 에서 Docker로 Redmine을 설치해본다.
 CentOS 7 선택 메모리 512MB로 실행한다.
 인스턴스가 생성되면 고정IP를 부여하여 연결한다.
 
-`yum check-update` 명령으로 패키지 업데이트 할 것이 있는지 확인한 다음, `sudo yum update -y` 명령으로 모든 패키지를 업데이트하고 재부팅을 한다.
+```console
+yum check-update
+```
+
+명령으로 패키지 업데이트 할 것이 있는지 확인한 다음,
+
+```console
+sudo yum update -y
+```
+
+명령으로 모든 패키지를 업데이트하고 재부팅을 한다.
 
 ---
 
@@ -48,25 +58,54 @@ CentOS 7에는 MariaDB가 이미 패키지내에 포함되어 있지만, 현재 
 
 <https://downloads.mariadb.org/mariadb/repositories> 로 이동하여 자기가 사용하는 배포판 버전을 선택하면 하단에 yum 설정이 출력된다. 그대로 복사하여 `/etc/yum.repos.d/MariaDB.repo` 경로로 파일을 만들고 내용에 붙여넣는다.
 
-  1. `sudo yum install MariaDB-server MariaDB-client` 명령으로 MariaDB를 설치한다.
-  2. `sudo systemctl enable mariadb` 명령으로 MariaDB를 서비스 시작으로 활성화한다.
-  3. `sudo systemctl start mariadb` 명령으로 서비스 시작
-  4. `sudo systemctl status mariadb` 입력하여 서비스 상태 확인한다.
+```console
+sudo yum install MariaDB-server MariaDB-client
+```
+
+명령으로 MariaDB를 설치한다.
+
+```console
+sudo systemctl enable mariadb
+```
+
+명령으로 MariaDB를 서비스 시작으로 활성화한다.
+
+```console
+sudo systemctl start mariadb
+```
+
+명령으로 서비스 시작
+
+```console
+sudo systemctl status mariadb
+```
+
+입력하여 서비스 상태 확인한다.
 
 명령으로 시스템 시작시 자동서비스 시작, MariaDB를 시작하고 제대로 설정되었는지 확인한다.
 
-`sudo mysql_secure_installation` 을 입력하여 DB 기초설정을 시작한다.
+```console
+sudo mysql_secure_installation
+```
+
+을 입력하여 DB 기초설정을 시작한다.
 
 중간에 Switch to unix_socket authentication [Y/n] 이라고 나오며 입력을 요구하는데, 이에 대해서는 <http://www.nemonein.xyz/2019/07/2254/> 에 설명되어 있다. 시스템의 계정과 mysql 유저계정을 매칭시킬 것인지 여부인데 이걸 하게되면 보안에 좋을 것 같긴한데 기존의 사용방식에 헷갈릴 것 같아서 n 로 입력했다.
 
 설정 과정에서 루트 암호를 변경해주고 테스트 테이블과 익명 접속을 차단해준다.
 
-`mysql -u root -p` 로 mariadb에 접속한다.
+```console
+mysql -u root -p
+```
 
-  1. `CREATE DATABASE redmine CHARACTER SET utf8 COLLATE utf8_general_ci;` 명령으로 데이터베이스 생성.
-  2. `CREATE USER 'redmine'@'%' IDENTIFIED BY 'aa12341234';` 로 유저와 패스워드 생성
-  3. `GRANT ALL PRIVILEGES ON redmine.* TO 'redmine'@'%';` 로 데이터베이스에 권한 부여
-  4. `FLUSH PRIVILEGES;` 로 입력한 내용 바로 적용
+로 mariadb에 접속한다.
+
+```sql
+CREATE DATABASE redmine CHARACTER SET utf8 COLLATE utf8_general_ci; -- 데이터베이스 생성.
+CREATE USER 'redmine'@'%' IDENTIFIED BY 'aa12341234'; -- 유저와 패스워드 생성
+GRANT ALL PRIVILEGES ON redmine.* TO 'redmine'@'%'; -- 데이터베이스에 권한 부여
+FLUSH PRIVILEGES; -- 입력한 내용 바로 적용
+```
 
 여기까지 진행하면 MariaDB 데이터베이스 설치가 끝난다.
 
@@ -95,6 +134,7 @@ CentOS 7에는 MariaDB가 이미 패키지내에 포함되어 있지만, 현재 
 
 설정은 다음과 같은 파일을 만들어서 실행하면 된다.
 
+```
 docker run -d \
 --name redmine \
 -p 80:3000 \
@@ -107,6 +147,7 @@ docker run -d \
 -v /home/centos/docker/redmine/datadir:/usr/src/redmine/files \
 --restart="always" \
 docker.io/redmine
+```
 
 모든 설정이 제대로 된줄 알았는데 접속이 되었다 안되었다 하였다. 이유를 찾아보니 시스템 메모리가 512MB 밖에 되지 않는데 이 메로리를 거의 다 사용하고 있었다.
 
@@ -124,13 +165,34 @@ docker.io/redmine
 
 설치 이후 레드마인에 플러그인을 추가한다거나 테마를 추가하려면 도커 컨테이너 안에 들어가서 처리를 해야한다.
 
-`docker exec -it redmine bash` 명령으로 내부로 들어간 다음, `apt-get update` 를 한번 해주고 `/usr/src/redmine` 이 레드마인 루트 경로이다.
+```console
+docker exec -it redmine bash
+```
+명령으로 내부로 들어간 다음,
+
+```console
+apt-get update
+```
+
+를 한번 해주고 `/usr/src/redmine` 이 레드마인 루트 경로이다.
 
 플러그인을 설치하겠다면 plugins 디렉토리에 가서 원하는 플러그인을 다운로드 받으면 된다.
 
 테마는 public/themes 디렉토리에 원하는 테마를 다운로드한다.
 
-테마는 다운로드하면 바로 적용해볼 수 있지만, 플러그인은 레드마인 컨테이너를 재시작해야만 적용된다. `sudo docker ps` 명령으로 컨테이너 ID를 확인한 후, `sudo docker restart [컨테이너ID]` 를 입력하여 컨테이너를 재시작해주면 플러그인이 추가된 것을 확인할 수 있다.
+테마는 다운로드하면 바로 적용해볼 수 있지만, 플러그인은 레드마인 컨테이너를 재시작해야만 적용된다.
+
+```console
+sudo docker ps
+```
+
+명령으로 컨테이너 ID를 확인한 후,
+
+```console
+sudo docker restart [컨테이너ID]
+```
+
+를 입력하여 컨테이너를 재시작해주면 플러그인이 추가된 것을 확인할 수 있다.
 
 ---
 
