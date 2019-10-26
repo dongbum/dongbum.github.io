@@ -1,13 +1,15 @@
 language: ruby
 rvm:
-- 2.4
+- 2.3.3
 cache: bundler
 gemfile: docs/Gemfile
 sudo: false
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  
+
+install: gem install jekyll html-proofer
+
 before_script:
  - chmod +x ./script/cibuild
 
