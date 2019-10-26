@@ -107,18 +107,3 @@ author_profile: true
 * 서버점검 시작/종료, 서버점검 메시지 설정, 서버점검 예약 기능 구현, 야구 경기 시뮬레이션 기능 등을 구현
 * 선수카드뽑기, 아이템뽑기 등 각종 뽑기 기능 시뮬레이션 기능을 구현
 * 프로토콜 부하를 분석하기 위한 툴을 JSP와 MySQL로 개발
-
----
-
-### LINK
-
-* [Github](https://github.com/dongbum)
-* [Twitter](https://twitter.com/dongbum9)
-* [Facebook](https://www.facebook.com/dongbum9)
-* [LinkedIn page](https://kr.linkedin.com/in/kimdongbum)
-
----
-
-### CONTACT
-* 010-9479-9193
-* dongbum9@gmail.com
