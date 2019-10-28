@@ -33,6 +33,16 @@ author_profile: true
 
 ---
 
+#### PROJECT 'Special Force'
+* Play Movie
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/1dh6pcTOOfk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+* 스페셜포스 라이브 서비스
+* 게임 서비스 운영, 컨텐츠 패치, 해외 런칭 담당
+* C++, MSSQL
+* Windows 서버 사용
+
+---
+
 #### PROJECT 'ID'
 * In-game Play
   <iframe width="700" height="480" src="https://www.youtube.com/embed/dd7xfdWBsAw" frameborder="0" allowfullscreen></iframe>
@@ -46,7 +56,6 @@ author_profile: true
 ---
 
 #### PROJECT '정복'
-
 * Lobby
   <iframe width="700" height="480" src="https://www.youtube.com/embed/AvyiCg8nz48" frameborder="0" allowfullscreen></iframe>
 * In-game Play
