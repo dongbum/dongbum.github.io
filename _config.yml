@@ -69,12 +69,12 @@ search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : algolia # lunr (default), algolia, google
 algolia:
-  application_id         : V2GMYA0HG7 # YOUR_APPLICATION_ID
-  index_name             : dongbumkim # YOUR_INDEX_NAME
-  search_only_api_key    : 44b045d1ac750a6ab6fedf12f4da6604 # YOUR_SEARCH_ONLY_API_KEY
+  application_id         : "V2GMYA0HG7" # YOUR_APPLICATION_ID
+  index_name             : "dongbumkim" # YOUR_INDEX_NAME
+  search_only_api_key    : "44b045d1ac750a6ab6fedf12f4da6604" # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  search_engine_id       : 005667938919866670827:jxpmdsqvamo # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
 google_site_verification :
@@ -231,11 +231,13 @@ timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zo
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-algolia
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jemoji
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -244,6 +246,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jemoji
 
 
 # Archives
