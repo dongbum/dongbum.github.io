@@ -18,7 +18,7 @@ tcmalloc은 Visual Studio 2015에서 디버그 모드로 사용이 불가능하�
 
 Visual Studio 2017로 간단한 코드를 테스트하여 tcmalloc의 성능을 확인해보았다.
 
-* 테스트코드 : [tcmalloc_test_VS2017](https://blog.dongbumkim.com/wp-content/uploads/2018/02/tcmalloc_test_VS2017.zip)
+* 테스트코드 : [tcmalloc_test_VS2017](/assets/attach/tcmalloc_test_VS2017.zip)
 
 ![](/assets/images/tcmalloc-test.png)
 

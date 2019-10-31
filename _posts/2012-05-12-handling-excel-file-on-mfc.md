@@ -12,9 +12,9 @@ tags:
 
 **2018년 11월 30일 추가.**
 
-_아래의 내용보다 더 좋은 엑셀파일 처리 라이브러리를 찾았다._
+아래의 내용보다 더 좋은 엑셀파일 처리 라이브러리를 찾았다.
 
-_<https://blog.dongbumkim.com/archives/5258>_
+<https://dongbumkim.com/2018/11/30/handling-excel-in-cplusplus>
 
 ---
 
@@ -22,7 +22,7 @@ MFC에서 자료를 엑셀파일로 저장하는 방법을 찾아보았다.
 
 여러가지 방법들이 많이 있었는데 그중에 가장 괜찮은 방법이어서 나중에 잊어버리지 않도록 여기에 써둔다.
 
-아래 내용을 이용하기 위한 파일은 [XLAutomation](https://blog.dongbumkim.com/wp-content/uploads/2012/05/XLAutomation-1.zip) 이다.
+아래 내용을 이용하기 위한 파일은 [XLAutomation](/assets/attach/XLAutomation.zip) 이다.
 
 혹시나 이 글을 볼 사람들이 있을까봐 아래의 코드는 [짬식(wingyui)님 블로그](http://blog.naver.com/wingyui?Redirect=Log&logNo=30070208599)의 내용이며 이 코드 및 내용에 대한 모든 권리는 짬식(wingyui)님에게 있다는 것을 밝혀둔다.
 

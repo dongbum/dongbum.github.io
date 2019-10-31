@@ -63,7 +63,7 @@ cmake로는 따로 옵션이 필요 없었다.
 
 [https://docs.coveralls.io/python](python-coveralls) 와 coveralls-python 두가지를 추천하고 있다. python-coveralls로 설정하던 중 다음과 같은 에러를 만났다.
 
-![](https://blog.dongbumkim.com/wp-content/uploads/2019/09/K-009.png)
+![](/assets/images/python-coveralls-error.png)
 
 다음과 같이 간단한 Traivs-CI 스크립트로 커버리지 테스트를 성공했다.
 

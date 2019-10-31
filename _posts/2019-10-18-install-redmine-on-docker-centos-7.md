@@ -27,7 +27,7 @@ CentOS 7 에서 Docker로 Redmine을 설치해본다.
 
 ### AWS Lightsail 서버에 설치
 
-![](https://blog.dongbumkim.com/wp-content/uploads/2019/10/K-012.png)
+![](/assets/images/lightsail-choice-instance.png)
 
 CentOS 7 선택 메모리 512MB로 실행한다.
 인스턴스가 생성되면 고정IP를 부여하여 연결한다.
@@ -153,7 +153,7 @@ docker.io/redmine
 
 다음과 같은 방법을 통해 스왑 메모리를 증가시켜 준다.
 
-<https://blog.dongbumkim.com/archives/4303>
+<https://dongbumkim.com/2016/12/10/add-swap-memory-in-linux>
 
 이 방법을 쓰고 나면 오류가 없어졌다.
 

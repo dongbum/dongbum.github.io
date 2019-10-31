@@ -14,14 +14,14 @@ categories:
     [Mon Jul 03 19:42:27.334364 2017] [:error] [pid 14570] [client 59.10.233.103:63211] File /home/viper9/python_test/hello.py, line 1, in <module>
     [Mon Jul 03 19:42:27.334392 2017] [:error] [pid 14570] [client 59.10.233.103:63211] from flask import Flask
     [Mon Jul 03 19:42:27.334409 2017] [:error] [pid 14570] [client 59.10.233.103:63211] ImportError: No module named flask
-    [Mon Jul 03 19:42:27.432767 2017] [:error] [pid 14538] [client 59.10.233.103:63210] mod_wsgi (pid=14538): Target WSGI script '/home/viper9/python_test/VeloWeight.wsgi' cannot be loaded as Python module., referer: http://python.83rpm.com/
-    [Mon Jul 03 19:42:27.432821 2017] [:error] [pid 14538] [client 59.10.233.103:63210] mod_wsgi (pid=14538): Exception occurred processing WSGI script '/home/viper9/python_test/VeloWeight.wsgi'., referer: http://python.83rpm.com/
-    [Mon Jul 03 19:42:27.432848 2017] [:error] [pid 14538] [client 59.10.233.103:63210] Traceback (most recent call last):, referer: http://python.83rpm.com/
-    [Mon Jul 03 19:42:27.432870 2017] [:error] [pid 14538] [client 59.10.233.103:63210] File /home/viper9/python_test/VeloWeight.wsgi, line 7, in <module>, referer: http://python.83rpm.com/
-    [Mon Jul 03 19:42:27.432904 2017] [:error] [pid 14538] [client 59.10.233.103:63210] from hello import app as application, referer: http://python.83rpm.com/
-    [Mon Jul 03 19:42:27.432914 2017] [:error] [pid 14538] [client 59.10.233.103:63210] File /home/viper9/python_test/hello.py, line 1, in <module>, referer: http://python.83rpm.com/
-    [Mon Jul 03 19:42:27.432928 2017] [:error] [pid 14538] [client 59.10.233.103:63210] from flask import Flask, referer: http://python.83rpm.com/
-    [Mon Jul 03 19:42:27.432963 2017] [:error] [pid 14538] [client 59.10.233.103:63210] ImportError: No module named flask, referer: http://python.83rpm.com/
+    [Mon Jul 03 19:42:27.432767 2017] [:error] [pid 14538] [client 59.10.233.103:63210] mod_wsgi (pid=14538): Target WSGI script '/home/viper9/python_test/VeloWeight.wsgi' cannot be loaded as Python module., referer: http://python.dongbumkim.com/
+    [Mon Jul 03 19:42:27.432821 2017] [:error] [pid 14538] [client 59.10.233.103:63210] mod_wsgi (pid=14538): Exception occurred processing WSGI script '/home/viper9/python_test/VeloWeight.wsgi'., referer: http://python.dongbumkim.com/
+    [Mon Jul 03 19:42:27.432848 2017] [:error] [pid 14538] [client 59.10.233.103:63210] Traceback (most recent call last):, referer: http://python.dongbumkim.com/
+    [Mon Jul 03 19:42:27.432870 2017] [:error] [pid 14538] [client 59.10.233.103:63210] File /home/viper9/python_test/VeloWeight.wsgi, line 7, in <module>, referer: http://python.dongbumkim.com/
+    [Mon Jul 03 19:42:27.432904 2017] [:error] [pid 14538] [client 59.10.233.103:63210] from hello import app as application, referer: http://python.dongbumkim.com/
+    [Mon Jul 03 19:42:27.432914 2017] [:error] [pid 14538] [client 59.10.233.103:63210] File /home/viper9/python_test/hello.py, line 1, in <module>, referer: http://python.dongbumkim.com/
+    [Mon Jul 03 19:42:27.432928 2017] [:error] [pid 14538] [client 59.10.233.103:63210] from flask import Flask, referer: http://python.dongbumkim.com/
+    [Mon Jul 03 19:42:27.432963 2017] [:error] [pid 14538] [client 59.10.233.103:63210] ImportError: No module named flask, referer: http://python.dongbumkim.com/
 ```
 
 <http://flask.pocoo.org/docs/0.12/deploying/mod_wsgi/> 를 읽어보니 다음과 같이 써있었다.

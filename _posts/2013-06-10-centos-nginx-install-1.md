@@ -21,7 +21,7 @@ nginx 설정파일을 수정한다. php를 사용하기 위해 중요한 설정�
 ```nginx
 server {
   listen 81;
-  server_name www.83rpm.com; # 가상호스트가 쓸 도메인을 정의한다.
+  server_name www.dongbumkim.com; # 가상호스트가 쓸 도메인을 정의한다.
 
   #charset koi8-r;
   #access_log /var/log/nginx/log/host.access.log main;

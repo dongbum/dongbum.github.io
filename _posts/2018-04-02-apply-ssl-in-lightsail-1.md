@@ -64,9 +64,9 @@ If you enter '.', the field will be left blank.
 Country Name (2 letter code) [AU]:KR
 State or Province Name (full name) [Some-State]:Seoul
 Locality Name (eg, city) []:Seadaemoon-gu
-Organization Name (eg, company) [Internet Widgits Pty Ltd]:83RPM.com
-Organizational Unit Name (eg, section) []:83RPM.com
-Common Name (e.g. server FQDN or YOUR name) []:83rpm.com
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:dongbumkim.com
+Organizational Unit Name (eg, section) []:dongbumkim.com
+Common Name (e.g. server FQDN or YOUR name) []:dongbumkim.com
 Email Address []:YOUR_EMAIL@gmail.com
 
 Please enter the following 'extra' attributes
@@ -91,7 +91,7 @@ bitnami@ip-172-26-10-176:~$
 ```
 bitnami@ip-172-26-10-176:~$ openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt
 Signature ok
-subject=/C=KR/ST=Seoul/L=Seadaemoon-gu/O=83RPM.com/OU=83RPM.com/CN=83rpm.com/emailAddress=YOUR_EMAIL@gmail.com
+subject=/C=KR/ST=Seoul/L=Seadaemoon-gu/O=dongbumkim.com/OU=dongbumkim.com/CN=dongbumkim.com/emailAddress=YOUR_EMAIL@gmail.com
 Getting Private key
 unable to write 'random state'
 bitnami@ip-172-26-10-176:~$
@@ -115,8 +115,8 @@ bitnami@ip-172-26-10-176:~$ sudo cp server.key /opt/bitnami/nginx/ssl/
 
 SSL을 적용할 사이트에 설정을 시작한다.
 
-난 SSL 테스트를 위한 것이므로 따로 SSL을 위한 사이트 설정을 하나 만들었다. 주소는 ssl.83rpm.com 으로 하기로 했다. 사이트 설정을 한다. vhost 등등....
+난 SSL 테스트를 위한 것이므로 따로 SSL을 위한 사이트 설정을 하나 만들었다. 주소는 ssl.dongbumkim.com 으로 하기로 했다. 사이트 설정을 한다. vhost 등등....
 
-일단 http://ssl.83rpm.com 으로 접속해본다. 만약 여기서 제대로 접속이 안된다면 nginx 가상호스트 설정이 제대로 안되었으니 제대로 나올 떄까지 수정해야된다.
+일단 http://ssl.dongbumkim.com 으로 접속해본다. 만약 여기서 제대로 접속이 안된다면 nginx 가상호스트 설정이 제대로 안되었으니 제대로 나올 떄까지 수정해야된다.
 
 글의 내용이 너무 길어져 두 포스팅으로 나눠서 써야겠다.
