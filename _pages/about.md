@@ -7,12 +7,13 @@ author_profile: true
 
 ### Game Server Developer
 
-2007년부터 개발을 시작하였으며 게임서버 개발자로 일하고 있습니다.
-여러 프로젝트에서 게임서버와 인프라 소프트웨어를 개발하였으며 현재는 Linux, Python, AWS, Node.js 등의 기술에 관심을 가지고 있습니다.
+2007년부터 개발을 시작하였으며 현재 게임서버 개발자로 일하고 있습니다.
+여러 프로젝트에서 게임서버와 인프라 소프트웨어를 개발하였으며 현재는 C++, Linux, Python, AWS, Node.js 등의 기술에 관심을 가지고 있습니다.
 
 #### Career
 
-* [DragonFly](http://www.dragonflygame.com/) :: 2016. 04. ~ Today
+* [NeedsGames] :: 2019. 11. ~ Today
+* [DragonFly](http://www.dragonflygame.com/) :: 2016. 04. ~ 2019. 10.
 * [RocketMobile](http://www.rocketmobile.co.kr/) :: 2015. 04. ~ 2016. 04.
 * [WEMADE Entertainment](http://www.wemade.com/) :: 2014. 02. ~ 2015. 03.
 * [ENTAZ](https://www.facebook.com/entazkor) :: 2012. 10. ~ 2014. 02.
