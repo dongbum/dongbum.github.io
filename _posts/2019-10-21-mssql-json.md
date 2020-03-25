@@ -93,6 +93,14 @@ SET @info = JSON_MODIFY(@jsonInfo, "$.info.address[0].town", 'London')
 
 리턴되는 값은 새로 업데이트된 값을 반환한다.
 
+만약 테이블에 있는 JSON 컬럼을 업데이트하고자 한다면 다음처럼 사용할 수 있다.
+
+```sql
+UPDATE [GameDB].[dbo].[ItemEquip]
+SET [Value] = JSON_MODIFY([Value], '$.DyeList[1]', 0)
+WHERE JSON_VALUE([Value], '$.DyeList[1]') = 4278190080
+```
+
 ---
 
 ### OPENJSON
@@ -129,3 +137,4 @@ SELECT * FROM jsontest FOR JSON AUTO
 ### 참고자료
 
   * <https://aspdotnet.tistory.com/2149>
+  * <https://riptutorial.com/ko/sql-server/example/17751/json-%EC%97%B4%EC%9D%98-%EA%B0%92-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8>
