@@ -12,14 +12,17 @@ author_profile: true
 
 #### Career
 
-* [NeedsGames] :: 2019. 11. ~ Today
-* [DragonFly](http://www.dragonflygame.com/) :: 2016. 04. ~ 2019. 10.
-* [RocketMobile](http://www.rocketmobile.co.kr/) :: 2015. 04. ~ 2016. 04.
-* [WEMADE Entertainment](http://www.wemade.com/) :: 2014. 02. ~ 2015. 03.
-* [ENTAZ](https://www.facebook.com/entazkor) :: 2012. 10. ~ 2014. 02.
-* [PandoraTV](http://www.pandora.tv/) :: 2010. 05. ~ 2012. 02.
-* [eFusion-i](http://www.efusioni.com/) :: 2008. 12. ~ 2010. 02.
-* [Cube&Cube](http://www.cubencube.com/) :: 2007. 02. ~ 2008. 12.
+##### Game Server Developer (2012 ~ Now)
+* NeedsGames
+* [DragonFly](http://www.dragonflygame.com/)
+* [RocketMobile](http://www.rocketmobile.co.kr/)
+* [WEMADE Entertainment](http://www.wemade.com/)
+* [ENTAZ](https://www.facebook.com/entazkor)
+
+##### Flash Developer (2007 ~ 2012)
+* [PandoraTV](http://www.pandora.tv/)
+* [eFusion-i](http://www.efusioni.com/)
+* [Cube&Cube](http://www.cubencube.com/)
 
 #### Skill
 
