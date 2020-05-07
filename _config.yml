@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+﻿# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -101,7 +101,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:dongbum9@gmail.com
+      url: "mailto:dongbum9@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://dongbumkim.com"
