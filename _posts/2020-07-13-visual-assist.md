@@ -1,5 +1,5 @@
 ---
-title: weak_ptr
+title: Visual Assist CPU/스레드 사용량 제어
 date: 2020-07-13 11:03:01
 categories:
   - C/C++
