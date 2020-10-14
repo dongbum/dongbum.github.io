@@ -7,6 +7,7 @@ gem "jekyll", "~> 3.6.2"
 gem "rake", "~> 12.3.0"
 
 group :jekyll_plugins do
+  gem "jekyll-include-cache"
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
