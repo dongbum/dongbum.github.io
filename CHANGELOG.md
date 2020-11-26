@@ -2,7 +2,13 @@
 
 ### Bug Fixes
 
+- Remove Google Search script from `404.md`. [#2597](https://github.com/mmistakes/minimal-mistakes/issues/2597) [#2737](https://github.com/mmistakes/minimal-mistakes/pull/2737)
 - Fix Font Awesome icon color in `contrast`, `dark`, `mint`, `neon`, `plum`, and `sunrise` skins. [#2724](https://github.com/mmistakes/minimal-mistakes/issues/2724)
+
+### Enhancements
+
+- Update Indonesian localized UI text strings. [#2731](https://github.com/mmistakes/minimal-mistakes/pull/2731)
+- Update remote theme documentation. [#2734](https://github.com/mmistakes/minimal-mistakes/pull/2734)
 
 ## [4.21.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.21.0)
 
