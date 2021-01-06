@@ -1,6 +1,6 @@
 ---
 title: CentOS 8 지원 종료
-date: 2020-01-01 01:44:01
+date: 2021-01-01 01:44:01
 categories:
   - Linux
 tags:
