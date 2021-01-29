@@ -2,7 +2,7 @@
 title: dependent-name is parsed as a non-type, but instantiation yields a type 에러 해결 방법
 date: 2016-06-02T10:35:18+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
   - GameServer
 ---
 다음과 같은 코드를 작성했다.

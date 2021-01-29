@@ -2,7 +2,7 @@
 title: 'C++에서 #변수명 사용법'
 date: 2013-02-19T11:33:43+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
 tags:
   - C
   - 변수

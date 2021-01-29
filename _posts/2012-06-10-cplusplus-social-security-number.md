@@ -2,7 +2,7 @@
 title: 주민등록번호 검증 코드
 date: 2012-06-10T00:19:28+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
 tags:
   - C
   - 주민등록번호

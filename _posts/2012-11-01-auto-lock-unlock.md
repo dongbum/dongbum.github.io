@@ -2,7 +2,7 @@
 title: 쓰레드 처리를 위한 Auto Lock/Unlock 클래스
 date: 2012-11-01T18:28:49+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
   - Note of the wrong answers
   - Programming
 tags:

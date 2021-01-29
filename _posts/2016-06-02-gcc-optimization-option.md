@@ -2,7 +2,7 @@
 title: GCC 최적화 옵션
 date: 2016-06-02T18:30:43+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
   - GameServer
 tags:
   - C

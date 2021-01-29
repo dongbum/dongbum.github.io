@@ -2,7 +2,7 @@
 title: MFC에서 데이터를 엑셀 파일로 저장하는 방법
 date: 2012-05-12T22:15:18+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
 tags:
   - Excel
   - MFC

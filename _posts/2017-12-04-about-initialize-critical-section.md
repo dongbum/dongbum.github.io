@@ -2,7 +2,7 @@
 title: InitializeCriticalSectionAndSpinCount, CriticalSection에 대한 정보 이것저것
 date: 2017-12-04T11:16:27+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
 ---
 개인적으로 만들고 있는 프로젝트, 프로그램들은 대부분 리눅스/윈도우간의 크로스플랫폼을 지향하고 있는데 그래서 그런지 락을 쓸 때는 std::mutex를 자주 쓰고 있다.
 

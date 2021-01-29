@@ -3,7 +3,7 @@ title: MySQL 라이브러리 사용시 config.h 파일 문제
 date: 2017-12-12T12:02:26+09:00
 categories:
   - boost
-  - C/C++/MFC
+  - C/C++
   - Database/SQL
 ---
 리눅스에서 빌드시 다음과 같은 오류가 있었다.

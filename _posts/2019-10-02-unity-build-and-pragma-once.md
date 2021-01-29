@@ -2,7 +2,7 @@
 title: UnityBuild와 pragma once
 date: 2019-10-02T17:34:28+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
 tags:
   - C
   - UnityBuild

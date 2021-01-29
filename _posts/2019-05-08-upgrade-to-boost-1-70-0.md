@@ -3,7 +3,7 @@ title: boost 1.70.0 버전 업그레이드시 참고사항
 date: 2019-05-08T18:17:10+09:00
 categories:
   - boost
-  - C/C++/MFC
+  - C/C++
 tags:
   - boost
   - C

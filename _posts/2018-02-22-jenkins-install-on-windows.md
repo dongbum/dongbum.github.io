@@ -2,7 +2,7 @@
 title: Windows에서 Jenkins 설치하기
 date: 2018-02-22T16:39:35+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
   - Java/JSP
 tags:
   - Jenkins

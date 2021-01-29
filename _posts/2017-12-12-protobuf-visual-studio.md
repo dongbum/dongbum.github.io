@@ -2,7 +2,7 @@
 title: Visual Studio 에서 C++ 로 사용하기 위한 protobuf 설치
 date: 2017-12-12T18:52:32+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
 tags:
   - C
   - Google

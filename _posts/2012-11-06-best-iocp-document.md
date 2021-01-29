@@ -2,7 +2,7 @@
 title: IOCP에 대한 좋은 설명 문서
 date: 2012-11-06T11:49:10+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
   - Programming
 tags:
   - C

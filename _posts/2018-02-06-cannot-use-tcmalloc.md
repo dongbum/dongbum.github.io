@@ -2,7 +2,7 @@
 title: 'tcmalloc 은 왜 VS2015, VS2017에서 안될까'
 date: 2018-02-06T16:21:16+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
 tags:
   - C
   - Google

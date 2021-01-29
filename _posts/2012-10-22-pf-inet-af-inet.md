@@ -2,7 +2,7 @@
 title: PF_INET과 AF_INET의 차이
 date: 2012-10-22T16:42:03+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
   - Note of the wrong answers
   - Programming
 tags:

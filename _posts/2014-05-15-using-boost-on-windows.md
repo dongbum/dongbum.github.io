@@ -3,7 +3,7 @@ title: 윈도우에서 C++ Boost 사용하기
 date: 2014-05-15T00:49:25+09:00
 categories:
   - boost
-  - C/C++/MFC
+  - C/C++
 tags:
   - boost
   - C

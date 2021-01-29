@@ -2,7 +2,7 @@
 title: CentOS에 FreeTDS 설치하기
 date: 2013-12-05T16:06:49+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
   - Database/SQL
   - Linux
 tags:

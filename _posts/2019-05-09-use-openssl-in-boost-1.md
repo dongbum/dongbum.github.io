@@ -3,7 +3,7 @@ title: 'boost에서 OpenSSL 사용하기 (1) : 윈도우에서 OpenSSL 빌드'
 date: 2019-05-09T14:36:26+09:00
 categories:
   - boost
-  - C/C++/MFC
+  - C/C++
   - GameServer
 tags:
   - boost

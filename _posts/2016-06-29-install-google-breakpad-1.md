@@ -2,7 +2,7 @@
 title: Google Breakpad 설치 (1)
 date: 2016-06-29T11:24:48+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
   - Programming
   - Python
 tags:

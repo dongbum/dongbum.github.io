@@ -2,7 +2,7 @@
 title: 리눅스에서 boost 라이브러리 빌드하기
 date: 2013-10-14T23:02:36+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
 tags:
   - boost
   - C

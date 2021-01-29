@@ -2,7 +2,7 @@
 title: Visual Studio에서 jemalloc 설치하고 사용법 (2)
 date: 2018-02-07T14:08:56+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
 tags:
   - C
   - cygwin

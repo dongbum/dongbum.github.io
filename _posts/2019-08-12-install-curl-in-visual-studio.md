@@ -2,7 +2,7 @@
 title: Visual Studio 에서 cURL 설치
 date: 2019-08-12T17:38:16+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
 tags:
   - C
   - cURL

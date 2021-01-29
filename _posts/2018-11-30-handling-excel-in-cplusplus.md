@@ -2,7 +2,7 @@
 title: C++에서 엑셀파일 처리하기
 date: 2018-11-30T15:14:26+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
 tags:
   - C
   - codeproject

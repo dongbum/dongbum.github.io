@@ -3,7 +3,7 @@ title: AppVeyor 사용기
 date: 2018-12-28T13:34:31+09:00
 categories:
   - boost
-  - C/C++/MFC
+  - C/C++
   - Database/SQL
   - GameServer
 ---

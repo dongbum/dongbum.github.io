@@ -2,7 +2,7 @@
 title: Zookeeper 설치
 date: 2013-09-09T22:49:37+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
   - Linux
   - Programming
 tags:

@@ -2,7 +2,7 @@
 title: std::thread 사용법
 date: 2014-06-25T22:03:15+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
 tags:
   - C
   - Thread

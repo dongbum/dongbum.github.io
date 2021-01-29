@@ -2,7 +2,7 @@
 title: Boost alt_sstream_impl.hpp warning C4819 에러 해결 방법
 date: 2013-09-12T12:11:31+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
 tags:
   - alt_sstream_impl.hpp
   - boost

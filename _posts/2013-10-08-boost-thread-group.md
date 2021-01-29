@@ -2,7 +2,7 @@
 title: boost::thread_group
 date: 2013-10-08T11:47:32+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
 tags:
   - boost
   - Thread

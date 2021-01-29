@@ -2,7 +2,7 @@
 title: string 타입에 빈칸을 포함하는 문자열을 입력 받는 방법
 date: 2012-10-09T11:18:17+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
   - Note of the wrong answers
 tags:
   - C

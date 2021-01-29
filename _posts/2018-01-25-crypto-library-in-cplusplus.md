@@ -2,7 +2,7 @@
 title: C++에서 사용 가능한 암호화 라이브러리
 date: 2018-01-25T17:02:26+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
   - GameServer
 tags:
   - C

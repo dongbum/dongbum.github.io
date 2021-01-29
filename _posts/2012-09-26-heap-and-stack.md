@@ -2,7 +2,7 @@
 title: 힙과 스택
 date: 2012-09-26T15:43:00+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
   - Note of the wrong answers
   - Programming
 tags:

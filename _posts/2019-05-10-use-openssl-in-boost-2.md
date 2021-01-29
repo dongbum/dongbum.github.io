@@ -3,7 +3,7 @@ title: boost에서 OpenSSL 사용하기 (2)
 date: 2019-05-10T17:18:14+09:00
 categories:
   - boost
-  - C/C++/MFC
+  - C/C++
   - GameServer
 tags:
   - boost

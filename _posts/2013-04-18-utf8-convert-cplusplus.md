@@ -2,7 +2,7 @@
 title: C++에서 문자열 UTF-8 변경 방법
 date: 2013-04-18T10:54:23+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
 tags:
   - C
   - UTF-8

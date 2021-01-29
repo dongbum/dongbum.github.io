@@ -2,7 +2,7 @@
 title: Travis CI 사용
 date: 2018-12-31T15:56:01+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
   - GameServer
   - GIT
 ---

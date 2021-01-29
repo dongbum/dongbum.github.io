@@ -2,7 +2,7 @@
 title: C++로 만든 계산기
 date: 2012-10-29T18:16:05+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
   - Note of the wrong answers
   - Programming
 tags:

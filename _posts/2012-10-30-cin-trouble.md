@@ -2,7 +2,7 @@
 title: cin을 쓸 때 입력을 한번 지나가는 현상을 해결하는 방법
 date: 2012-10-30T20:30:34+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
   - Note of the wrong answers
   - Programming
 tags:

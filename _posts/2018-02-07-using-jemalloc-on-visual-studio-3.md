@@ -2,7 +2,7 @@
 title: Visual Studio에서 jemalloc 설치하고 사용법 (3)
 date: 2018-02-07T15:49:12+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
 tags:
   - C
   - jemalloc

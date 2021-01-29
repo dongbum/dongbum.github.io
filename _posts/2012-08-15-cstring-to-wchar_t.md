@@ -2,7 +2,7 @@
 title: 'CString to wchar_t *'
 date: 2012-08-15T20:00:59+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
 tags:
   - C
   - CString

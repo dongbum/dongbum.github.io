@@ -2,7 +2,7 @@
 title: double 타입 사용시 주의할 점
 date: 2019-07-03T18:59:46+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
   - Note of the wrong answers
 ---
 오늘 삽질했던 코드. 평소에는 double을 잘 안 쓰다보니 헷갈렸다.

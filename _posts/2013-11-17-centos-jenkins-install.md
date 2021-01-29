@@ -2,7 +2,7 @@
 title: CentOS에서 Jenkins 설치하기
 date: 2013-11-17T14:28:30+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
   - Java/JSP
   - Linux
   - Programming

@@ -2,7 +2,7 @@
 title: auto_ptr, shared_ptr, scoped_ptr
 date: 2013-01-18T16:08:49+09:00
 categories:
-  - C/C++/MFC
+  - C/C++
 tags:
   - auto_ptr
   - C

@@ -3,7 +3,7 @@ title: boost에서 메모리풀 사용
 date: 2017-11-24T09:56:32+09:00
 categories:
   - boost
-  - C/C++/MFC
+  - C/C++
 tags:
   - boost
   - 메모리풀
