@@ -2,9 +2,9 @@
 title: SourceTree에서 GirFork로 변경
 date: 2021-01-28 01:17:01
 categories:
-  - Git
+  - GIT
 tags:
-  - Git
+  - GIT
 ---
 
 ![](/assets/images/sourcetree_logo.png)
