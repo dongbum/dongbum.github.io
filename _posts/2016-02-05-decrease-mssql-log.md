@@ -1,12 +1,6 @@
 ---
 title: MSSQL 로그 파일 용량 줄이는 방법
 date: 2016-02-05T11:12:01+09:00
-builder_switch_frontend:
-  - "0"
-  - "0"
-nwsv2_post_status:
-  - complete
-  - complete
 categories:
   - Database/SQL
 tags:

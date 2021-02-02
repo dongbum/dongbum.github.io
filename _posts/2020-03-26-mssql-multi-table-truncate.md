@@ -2,8 +2,7 @@
 title: MSSQL에서 여러 테이블 데이터 한번에 삭제하기
 date: 2020-03-26T01:28:16+09:00
 categories:
-- Database
-- SQL
+- Database/SQL
 tags:
 - MSSQL
 - 데이터베이스
