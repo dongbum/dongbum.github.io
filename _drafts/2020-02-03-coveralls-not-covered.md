@@ -17,5 +17,7 @@ coveralls에서 다음과 같은 문제를 볼 수 있었다.
 
 <https://stackoverflow.com/questions/37373398/why-does-coveralls-show-0-coverage-when-every-source-file-is-100-covered>
 
+gcov와 g++의 버전이 맞지 않아서 그렇다는 답변이었다.
+
 ### 참고자료
 * <https://stackoverflow.com/questions/37373398/why-does-coveralls-show-0-coverage-when-every-source-file-is-100-covered>
