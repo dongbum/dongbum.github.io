@@ -24,13 +24,11 @@ author_profile: true
 * [eFusion-i](http://www.efusioni.com/)
 * [Cube&Cube](http://www.cubencube.com/)
 
-#### Skill
-
+### Skill
 * Game Server - C++
 * Database - MSSQL / MySQL
 * Windows & Linux Platform
 * Web Based Server & Tools - Python / JSP / ASP.net
 
-#### Project
-
+### Project
 * [Link to project page](/about/project)

@@ -5,6 +5,9 @@ permalink: /about/project/
 author_profile: true
 ---
 
+#### PROJECT 'Undecember'
+* 개발 중
+
 #### PROJECT 'Special Force'
 * Play Movie
   <iframe width="560" height="315" src="https://www.youtube.com/embed/1dh6pcTOOfk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
