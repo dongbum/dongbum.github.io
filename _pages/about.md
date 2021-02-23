@@ -8,7 +8,7 @@ author_profile: true
 ### Game Server Developer
 
 2007년부터 개발을 시작하였으며 현재 게임서버 개발자로 일하고 있습니다.
-여러 프로젝트에서 게임서버와 인프라 소프트웨어를 개발하였으며 현재는 C++, Linux, Python, AWS, Node.js 등의 기술에 관심을 가지고 있습니다.
+여러 프로젝트에서 게임서버와 인프라 소프트웨어를 개발하였으며 현재는 C++, Linux, Python, AWS 등의 기술에 관심을 가지고 있습니다.
 
 #### Career
 
@@ -30,3 +30,7 @@ author_profile: true
 * Database - MSSQL / MySQL
 * Windows & Linux Platform
 * Web Based Server & Tools - Python / JSP / ASP.net
+
+#### Project
+
+* [Link to project page](/about/project)
