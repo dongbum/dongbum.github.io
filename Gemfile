@@ -15,3 +15,5 @@ group :jekyll_plugins do
   gem "jekyll-algolia"
   gem 'jemoji'
 end
+
+gem 'tzinfo-data'
