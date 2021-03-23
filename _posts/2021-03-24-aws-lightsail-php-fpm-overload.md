@@ -21,7 +21,7 @@ CPU를 모두 사용하고 있는건 php-fpm이었다. 그런데 이상한건 �
 
 구글에 검색하다보니 다음의 문서를 발견했다.
 
-https://sarc.io/index.php/aws/1037-aws-lightsail-php-fpm-cpu
+* <https://sarc.io/index.php/aws/1037-aws-lightsail-php-fpm-cpu>
 
 **나와 동일한 케이스였는데 이 링크에서 설명한대로 Lightsail 콘솔에 들어가서 아예 stop하고 잠시 기다렸다가 start해주니 모든 것이 정상화되었다.**
 
