@@ -15,7 +15,7 @@ author_profile: true
 ##### Game Server Developer (2012 ~ Now)
 * NeedsGames
 * [DragonFly](http://www.dragonflygame.com/)
-* [RocketMobile](http://www.rocketmobile.co.kr/)
+* RocketMobile
 * [WEMADE Entertainment](http://www.wemade.com/)
 * [ENTAZ](https://www.facebook.com/entazkor)
 
